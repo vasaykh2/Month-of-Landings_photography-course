@@ -1,1 +1,89 @@
+@use "../Vendor/normalize.css";
+@use "../Vendor/fonts";
 
+@use "../scss/blocks/body/body";
+@use "./blocks/page/page";
+
+@use "./blocks/header/header";
+
+@use "./blocks/logo/logo";
+
+@use "./blocks/nav/nav";
+@use "./blocks/nav/__item/nav__item";
+@use "./blocks/burgerMenu/burgerMenu";
+
+@use "./blocks/content/content";
+
+@use "./blocks/wrapper/wrapper";
+
+@use "./blocks/course/course";
+
+@use "./blocks/container/container";
+
+@use "./blocks/course/__container/course__container";
+@use "./blocks/course/__main/course__main";
+@use "./blocks/course/__txt/course__txt";
+@use "./blocks/course/__title/course__title";
+@use "./blocks/course/__subtitle/course__subtitle";
+
+@use "./blocks/button/button";
+
+@use "./blocks/img/img";
+
+@use "./blocks/course/__img/course__img";
+
+@use "./blocks/composition/composition";
+
+@use "./blocks/thema/thema_yellow";
+
+@use "./blocks/composition/__container/composition__container";
+@use "./blocks/composition/__main/composition__main";
+@use "./blocks/composition/__txt/composition__txt";
+
+@use "./blocks/section-name/section-name";
+
+@use "./blocks/composition/__title/composition__title";
+@use "./blocks/composition/__subtitle/composition__subtitle";
+@use "./blocks/composition/__img/composition__img";
+@use "./blocks/composition/__rools/composition__rools";
+@use "./blocks/composition/__rool/composition__rool";
+
+@use "./blocks/camera/camera";
+
+@use "./blocks/thema/thema_dark";
+
+@use "./blocks/camera/__container/camera__container";
+@use "./blocks/camera/__main/camera__main";
+@use "./blocks/camera/__txt/camera__txt";
+@use "./blocks/camera/__img/camera__img";
+@use "./blocks/camera/__feedbacks/camera__feedbacks";
+@use "./blocks/camera/__feedback/camera__feedback";
+@use "./blocks/camera/__feedback-txt/camera__feedback-txt";
+@use "./blocks/camera/__feedback-signature/camera__feedback-signature";
+@use "./blocks/camera/__feedback-address/camera__feedback-address";
+
+@use "./blocks/orderings/orderings";
+@use "./blocks/orderings/__container/orderings__container";
+@use "./blocks/orderings/__main/orderings__main";
+@use "./blocks/orderings/__subtitle/orderings__subtitle";
+@use "./blocks/orderings/__img/orderings__img";
+@use "./blocks/orderings/__description/orderings__description";
+@use "./blocks/orderings/__txt/orderings__txt";
+
+@use "./blocks/register/register";
+
+@use "./blocks/thema/thema_red";
+
+@use "./blocks/vector/vector";
+
+@use "./blocks/register/__container/register__container";
+@use "./blocks/register/__call/register__call";
+@use "./blocks/form/form";
+@use "./blocks/form/__item/form__item";
+@use "./blocks/form/__reg/form__reg";
+
+@use "./blocks/footer/footer";
+@use "./blocks/footer/__copyright/footer__copyright";
+
+@use "./blocks/popup/popup";
+@use "./blocks/popup/__close-button/popup__close-button";

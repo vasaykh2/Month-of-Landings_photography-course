@@ -1,0 +1,10 @@
+@import "../../variables";
+
+.page {
+  max-width: $max-width;
+  min-width: $min-width;
+  font-family: $font-family;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

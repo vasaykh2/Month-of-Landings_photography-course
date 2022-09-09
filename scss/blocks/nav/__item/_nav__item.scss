@@ -1,0 +1,9 @@
+@import "../../../variables";
+
+.nav__item {
+  text-decoration: none;
+  font-size: $font-size-norm;
+  font-weight: $font-weight-norm;
+  line-height: $line-height-norm;
+  color: $txt-light;
+}
