@@ -1,2 +1,20 @@
+@import "../../variables";
+
 .button {
+  margin: 0;
+  padding: 10px 67px;
+  font-family: $font-family;
+  font-weight: $font-weight-norm;
+  font-size: ($font-size-norm + $font-size-medium) / 2;
+  line-height: $line-height-medium;
+  color: $txt-dark;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 9999px;
+}
+
+@media (max-width: 320px) {
+  .button {
+    font-size: $font-size-small;
+  }
 }

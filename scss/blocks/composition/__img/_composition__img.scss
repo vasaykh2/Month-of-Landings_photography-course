@@ -1,2 +1,12 @@
 .composition__img {
+  width: 642px;
+  height: 685px;
+}
+
+@media (max-width: 768px) {
+  .composition__img {
+    width: 688px;
+    position: absolute;
+    top: 60px + 128px + 40px + 28px;
+  }
 }

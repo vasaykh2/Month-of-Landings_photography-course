@@ -2,4 +2,12 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: stretch;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    position: relative;
+  }
 }

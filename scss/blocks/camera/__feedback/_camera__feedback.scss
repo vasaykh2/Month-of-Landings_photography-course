@@ -1,2 +1,19 @@
 .camera__feedback {
+  display: list-item;
+}
+
+@media (max-width: 768px) {
+  .camera__feedback {
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    margin-top: 60px;
+    padding-bottom: 60px;
+  }
+  .camera__feedback:first-of-type {
+    margin-top: 0;
+  }
+  .camera__feedback:last-of-type {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
 }

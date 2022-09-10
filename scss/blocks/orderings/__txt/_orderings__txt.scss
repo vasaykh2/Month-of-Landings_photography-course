@@ -1,2 +1,9 @@
+@import "../../../variables";
+
 .orderings__txt {
+  max-width: 380px;
+  font-weight: $font-weight-norm;
+  font-size: ($font-size-norm + $font-size-medium) / 2;
+  line-height: $line-height-medium;
+  color: $txt-dark;
 }

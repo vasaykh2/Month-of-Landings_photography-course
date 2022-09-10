@@ -1,2 +1,16 @@
+@import "../../../variables";
+
 .course__subtitle {
+  margin: 0;
+  max-width: 469px;
+  font-weight: $font-weight-norm;
+  font-size: $font-size-medium;
+  line-height: $line-height-medium;
+  color: $txt-dark;
+}
+
+@media (max-width: 768px) {
+  .course__subtitle {
+    margin-bottom: 60px;
+  }
 }

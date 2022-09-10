@@ -5,7 +5,9 @@
 @use "./blocks/page/page";
 
 @use "./blocks/header/header";
+@use "./blocks/header/__nav/header__nav";
 
+@use "./blocks/rotation/rotation";
 @use "./blocks/logo/logo";
 
 @use "./blocks/nav/nav";
@@ -34,8 +36,6 @@
 
 @use "./blocks/composition/composition";
 
-@use "./blocks/thema/thema_yellow";
-
 @use "./blocks/composition/__container/composition__container";
 @use "./blocks/composition/__main/composition__main";
 @use "./blocks/composition/__txt/composition__txt";
@@ -50,11 +50,10 @@
 
 @use "./blocks/camera/camera";
 
-@use "./blocks/thema/thema_dark";
-
 @use "./blocks/camera/__container/camera__container";
 @use "./blocks/camera/__main/camera__main";
 @use "./blocks/camera/__txt/camera__txt";
+@use "./blocks/camera/__item/camera__item";
 @use "./blocks/camera/__img/camera__img";
 @use "./blocks/camera/__feedbacks/camera__feedbacks";
 @use "./blocks/camera/__feedback/camera__feedback";
@@ -72,8 +71,6 @@
 
 @use "./blocks/register/register";
 
-@use "./blocks/thema/thema_red";
-
 @use "./blocks/vector/vector";
 
 @use "./blocks/register/__container/register__container";
@@ -86,4 +83,7 @@
 @use "./blocks/footer/__copyright/footer__copyright";
 
 @use "./blocks/popup/popup";
+@use "./blocks/popup/__container/popup__container";
 @use "./blocks/popup/__close-button/popup__close-button";
+@use "./blocks/popup/__nav/popup__nav";
+@use "./blocks/popup/__logo/popup__logo";

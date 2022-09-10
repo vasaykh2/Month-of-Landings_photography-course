@@ -1,0 +1,13 @@
+@import "../../../variables";
+
+.popup__container {
+  width: 100%;  
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: $red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 22px 30px 40px;
+}

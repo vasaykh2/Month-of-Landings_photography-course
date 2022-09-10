@@ -1,2 +1,9 @@
+@import '../../../variables';
+
 .camera__feedback-address {
+    margin: 0;
+    max-width: 526px;
+    font-weight: $font-weight-norm;
+    font-size: $font-size-small;
+    line-height: $line-height-norm;
 }

@@ -1,2 +1,7 @@
 .orderings__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+  gap: 148px;
 }

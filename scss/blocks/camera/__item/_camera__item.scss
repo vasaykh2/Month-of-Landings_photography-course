@@ -1,2 +1,19 @@
+@import "../../../variables";
+
 .camera__item {
+  margin: 0;
+  max-width: 400px;
+  font-weight: $font-weight-norm;
+  font-size: $size-large;
+  line-height: $size-large;
+}
+
+.camera__item:first-of-type {
+  margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+  .camera__item:first-of-type {
+    margin-top: 40px;
+  }
 }

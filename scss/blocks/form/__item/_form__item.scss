@@ -1,2 +1,14 @@
+@import "../../../variables";
+
 .form__item {
+  margin: 0;
+  max-width: 348px;
+  max-height: 50px;
+  font-weight: $font-weight-norm;
+  font-size: $font-size-small;
+  line-height: $line-height-norm;
+  background-color: $white;
+  color: $txt-dark;
+  border: 2px solid #000;
+  border-radius: 8px 0 0 8px;
 }

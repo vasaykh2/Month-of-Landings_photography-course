@@ -8,13 +8,17 @@
     <!--
     <link rel="stylesheet" href="./dist/styles.css" />
     -->
-    <link rel="stylesheet" href="./scss/styles.css" />
+    <link rel="stylesheet" href="./dist/styles.css" />
   </head>
   <body class="body">
     <div class="page">
       <header class="header">
-        <img src="./Vendor/images/logo.png" alt="Логотип" class="logo" />
-        <ul class="nav">
+        <img
+          src="./Vendor/images/logo.png"
+          alt="Логотип"
+          class="logo rotation"
+        />
+        <ul class="nav header__nav">
           <li><a class="nav__item" href="#composition">Композиция</a></li>
           <li><a class="nav__item" href="#camera">Камера</a></li>
           <li><a class="nav__item" href="#orderings">Поиск заказов</a></li>
@@ -40,14 +44,16 @@
                 Подробнее
               </button>
             </section>
-            <img
-              src="./Vendor/images/oleksii-yasinskyi-2p37hls8jkA-unsplash 1.png"
-              alt="Снег и туман в лесу"
-              class="img course__img"
-            />
+            <div class="course__img">
+              <img
+                src="./Vendor/images/oleksii-yasinskyi-2p37hls8jkA-unsplash 1.png"
+                alt="Снег и туман в лесу"
+                class="img"
+              />
+            </div>
           </div>
         </article>
-        <article class="wrapper composition thema_yellow" id="composition">
+        <article class="wrapper composition" id="composition">
           <div class="container composition__container">
             <section class="composition__main">
               <section class="composition__txt">
@@ -55,7 +61,7 @@
                 <h3 class="composition__title">Изучите композицию</h3>
                 <p class="composition__subtitle">
                   Вы изучите гармоничное размещение всех элементов изображения
-                  на снимке.
+                  на <span>снимке</span>.
                 </p>
                 <p class="composition__subtitle">
                   Изучите композицию интуитивную и какие-то определённые законы.
@@ -65,11 +71,13 @@
                 Записаться!
               </button>
             </section>
-            <img
-              src="./Vendor/images/launde-morel-jYVspgngNf8-unsplash 1.png"
-              alt="Дорога в лесу"
-              class="img composition__img"
-            />
+            <div class="composition__img">
+              <img
+                src="./Vendor/images/launde-morel-jYVspgngNf8-unsplash 1.png"
+                alt="Дорога в лесу"
+                class="img"
+              />
+            </div>
           </div>
           <ul class="composition__rools">
             <li class="composition__rool">
@@ -77,7 +85,7 @@
               пересечениях.
             </li>
             <li class="composition__rool">
-              Простота: убирай всё лишнее и кадрируй!
+              Простота: убирай всё лишнее и&nbsp;кадрируй!
             </li>
             <li class="composition__rool">
               Равновесие: уравновесь пятна объекта и фона.
@@ -88,7 +96,7 @@
             </li>
           </ul>
         </article>
-        <article class="wrapper camera thema_dark" id="camera">
+        <article class="wrapper camera" id="camera">
           <div class="container camera__container">
             <section class="camera__main">
               <section class="camera__txt">
@@ -99,11 +107,13 @@
               </section>
               <h2 class="section-name">отзывы про часть о камерах:</h2>
             </section>
-            <img
-              src="./Vendor/images/caleb-moreno-Uy4_uNnNHDU-unsplash 1.png"
-              alt="Лесная ложбина"
-              class="img camera__img"
-            />
+            <div class="camera__img">
+              <img
+                src="./Vendor/images/caleb-moreno-Uy4_uNnNHDU-unsplash 1.png"
+                alt="Лесная ложбина"
+                class="img"
+              />
+            </div>
           </div>
           <ul class="camera__feedbacks">
             <li class="camera__feedback">
@@ -116,8 +126,8 @@
             </li>
             <li class="camera__feedback">
               <p class="camera__feedback-txt">
-                супер крутой курс! на части про фотики я стал разбираться в
-                предназначении кнопок
+                супер крутой курс! на&nbsp;части про фотики я&nbsp;стал
+                разбираться в предназначении кнопок
               </p>
               <p class="camera__feedback-signature">Джон, спортсмен.</p>
               <p class="camera__feedback-address">@john_sport</p>
@@ -129,11 +139,13 @@
             <section class="orderings__main">
               <h2 class="section-name">поиск заказов</h2>
               <p class="orderings__subtitle">Научим находить заказы!</p>
-              <img
-                src="./Vendor/images/nikolay-maslov-XnvLe0u9iM8-unsplash 1.png"
-                alt="Дерево на фоне неба"
-                class="img orderings__img"
-              />
+              <div class="orderings__img">
+                <img
+                  src="./Vendor/images/nikolay-maslov-XnvLe0u9iM8-unsplash 1.png"
+                  alt="Дерево на фоне неба"
+                  class="img"
+                />
+              </div>
             </section>
             <section class="orderings__description">
               <p class="orderings__txt">
@@ -146,7 +158,7 @@
             </section>
           </div>
         </article>
-        <section class="wrapper register thema_red">
+        <section class="wrapper register">
           <img src="./Vendor/images/vector.png" alt="Стрелка" class="vector" />
           <div class="register__container">
             <p class="register__call">Записаться!</p>
@@ -155,7 +167,7 @@
               <input
                 type="text"
                 name="E-mail"
-                minlength="3"
+                minlength="5"
                 maxlength="50"
                 placeholder="Ваша почта"
                 class="form__item"
@@ -173,13 +185,19 @@
         <p class="footer__copyright">2022 Photo-lessons.</p>
       </footer>
       <div class="popup">
-        <img src="./Vendor/images/logo.png" alt="Логотип" class="logo" />
-        <ul class="nav">
-          <li><a class="nav__item" href="#composition">Композиция</a></li>
-          <li><a class="nav__item" href="#camera">Камера</a></li>
-          <li><a class="nav__item" href="#orderings">Поиск заказов</a></li>
-        </ul>
-        <button type="button" class="popup__close-button"></button>
+        <div class="popup__container">
+          <img
+            src="./Vendor/images/logo.png"
+            alt="Логотип"
+            class="logo rotation popup__logo"
+          />
+          <ul class="nav popup__nav">
+            <li><a class="nav__item" href="#composition">Композиция</a></li>
+            <li><a class="nav__item" href="#camera">Камера</a></li>
+            <li><a class="nav__item" href="#orderings">Поиск заказов</a></li>
+          </ul>
+          <button type="button" class="popup__close-button"></button>
+        </div>
       </div>
     </div>
     <script src="./scripts/index.js"></script>

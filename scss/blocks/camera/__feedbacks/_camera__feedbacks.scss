@@ -1,2 +1,16 @@
 .camera__feedbacks {
+  list-style-type: none;
+  margin: 180px 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 172px;
+}
+
+@media (max-width: 768px) {
+  .camera__feedbacks {
+    flex-direction: column;
+    gap: 0;
+  }
 }

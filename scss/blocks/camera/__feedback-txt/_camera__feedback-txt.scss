@@ -1,2 +1,9 @@
+@import "../../../variables";
+
 .camera__feedback-txt {
+  margin: 0;
+  max-width: 526px;
+  font-weight: $font-weight-norm;
+  font-size: $size-small;
+  line-height: $size-small;
 }

@@ -1,2 +1,13 @@
 .camera__img {
+  width: 642px;
+  aspect-ratio: 642 / 832;
+}
+
+@media (max-width: 768px) {
+  .camera__img {
+    width: 688px;
+    aspect-ratio: 688 / 656;
+    position: absolute;
+    top: 60px + 3 * 123px + 40px + 28px;
+  }
 }

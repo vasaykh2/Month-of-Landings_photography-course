@@ -1,2 +1,9 @@
 .camera__txt {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .camera__txt {
+    margin-bottom: 656px + 60px + 60px;    
+  }
 }

@@ -1,2 +1,13 @@
+@import "../../../variables";
+
 .register__call {
+  margin: 0;
+  max-width: 685px;
+  font-weight: $font-weight-norm;
+  font-size: $size-large - 2px;
+  line-height: $size-large - 2px;
+  color: $white;
+}
+.register__call:last-of-type {
+  margin-bottom: $size-large - 2px;
 }

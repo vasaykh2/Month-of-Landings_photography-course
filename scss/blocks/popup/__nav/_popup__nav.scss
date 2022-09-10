@@ -1,0 +1,12 @@
+.popup__nav {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .popup__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+  }
+}

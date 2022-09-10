@@ -1,2 +1,25 @@
+@import "../../../variables";
+
 .composition__subtitle {
+  margin: 0 0 20px;
+  max-width: 400px;
+  font-weight: $font-weight-norm;
+  font-size: ($font-size-norm + $font-size-medium) / 2;
+  line-height: $line-height-medium;
+  color: $txt-dark;
 }
+
+.composition__subtitle span {
+  font-weight: $font-weight-bold;
+}
+
+.composition__subtitle:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+  .composition__subtitle:last-child {
+    margin-bottom: 60px;
+  }
+}
+

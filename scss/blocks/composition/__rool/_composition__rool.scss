@@ -1,2 +1,25 @@
+@import "../../../variables";
+
 .composition__rool {
+  max-width: 291px;
+  font-weight: $font-weight-norm;
+  font-size: ($font-size-norm + $font-size-medium) / 2;
+  line-height: $line-height-medium;
+  color: $txt-dark;
+}
+
+@media (max-width: 768px) {
+  .composition__rool {
+    border-bottom: 1px solid #000;
+    min-width: 100%;
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+  .composition__rool:first-of-type {
+    margin-top: 0;
+  }
+  .composition__rool:last-of-type {
+    border: 0;
+    padding-bottom: 0;
+  }
 }
