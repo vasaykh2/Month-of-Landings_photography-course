@@ -8,12 +8,17 @@
   border: none;
   padding: 0;
   position: absolute;
-  bottom: 22px;
   right: 23px;
-  cursor: pointer; 
+  cursor: pointer;
   transition: opacity 0.4s linear;
 }
 
 .popup__close-button:hover {
   opacity: 0.6;
+}
+
+@media (max-width: 500px) {
+  .popup__close-button {
+    top: 22px;
+  }
 }

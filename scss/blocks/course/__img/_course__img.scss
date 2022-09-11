@@ -3,7 +3,7 @@
   aspect-ratio: 642 / 555;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   .course__img {
     width: 688px;
     position: absolute;
@@ -11,10 +11,26 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 750px) {
+  .course__img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 550px) {
+  .course__img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 440px) {
   .course__img {
     width: 280px;
-    position: absolute;
+  }
+}
+
+@media (max-width: 320px) {
+  .course__img {
     top: 60px + 112px;
   }
 }

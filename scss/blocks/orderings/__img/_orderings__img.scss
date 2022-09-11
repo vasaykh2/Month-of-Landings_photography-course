@@ -3,16 +3,27 @@
   aspect-ratio: 648 / 333;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   .orderings__img {
     width: 688px;
     aspect-ratio: 688 / 360;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 750px) {
+  .orderings__img {
+    width: 500px;
+  }
+}
+
+@media (max-width: 550px) {
+  .orderings__img {
+    width: 400px;
+  }
+}
+
+@media (max-width: 440px) {
   .orderings__img {
     width: 280px;
-    aspect-ratio: 688 / 360;
   }
 }

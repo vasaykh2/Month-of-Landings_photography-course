@@ -1,0 +1,9 @@
+.header_down {
+  margin-top: 60px + 84px;
+}
+
+@media (max-width: 500px) {
+  .header_down {
+    margin-top: 60px + 198px;
+  }
+}

@@ -6,6 +6,7 @@
 
 @use "./blocks/header/header";
 @use "./blocks/header/__nav/header__nav";
+@use "./blocks/header/_down/header_down";
 
 @use "./blocks/rotation/rotation";
 @use "./blocks/logo/logo";
@@ -88,3 +89,4 @@
 @use "./blocks/popup/__close-button/popup__close-button";
 @use "./blocks/popup/__nav/popup__nav";
 @use "./blocks/popup/__logo/popup__logo";
+@use "./blocks/popup/_opened/popup_opened";

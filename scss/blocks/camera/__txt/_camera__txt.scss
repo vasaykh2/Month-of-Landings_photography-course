@@ -2,9 +2,21 @@
   width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1100px) {
   .camera__txt {
     margin-bottom: 656px + 60px + 60px;
+  }
+}
+
+@media (max-width: 750px) {
+  .camera__txt {
+    margin-bottom: 500px + 60px + 60px;
+  }
+}
+
+@media (max-width: 440px) {
+  .camera__txt {
+    margin-bottom: 300px + 60px + 60px;
   }
 }
 

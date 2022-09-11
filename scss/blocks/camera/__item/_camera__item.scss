@@ -12,13 +12,28 @@
   margin-top: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
+  .camera__item {
+    font-size: $size-large - 50px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .camera__item {
+    font-size: $size-large;
+  }
   .camera__item:first-of-type {
     margin-top: 40px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 750px) {
+  .camera__item {
+    font-size: $size-large - 50px;
+  }
+}
+
+@media (max-width: 400px) {
   .camera__item {
     font-size: $font-size-mobil + 1px;
     line-height: $line-height-mobil;
