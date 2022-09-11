@@ -1,0 +1,11 @@
+.section-name_feedbacks {
+  color: inherit;
+}
+
+@media (max-width: 320px) {
+  .section-name_feedbacks {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+}

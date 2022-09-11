@@ -8,3 +8,9 @@
   gap: 50px;
   padding-bottom: 36px;
 }
+
+@media (max-width: 320px) {
+  .register {
+    padding-bottom: 20px;
+  }
+}

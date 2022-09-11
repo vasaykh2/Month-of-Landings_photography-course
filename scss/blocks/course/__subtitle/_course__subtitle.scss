@@ -14,3 +14,11 @@
     margin-bottom: 60px;
   }
 }
+
+@media (max-width: 320px) {
+  .course__subtitle {
+    font-size: $font-size-small;
+    line-height: $line-height-small;
+    margin-bottom: 30px;
+  }
+}

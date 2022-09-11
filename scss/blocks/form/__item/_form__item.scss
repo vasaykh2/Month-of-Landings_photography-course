@@ -12,3 +12,13 @@
   border: 2px solid #000;
   border-radius: 8px 0 0 8px;
 }
+
+@media (max-width: 320px) {
+  .form__item {
+    min-height: 50px;
+    width: 54%;
+    box-sizing: border-box;
+    font-size: $font-size-small - 3px;
+    padding: 0 20px;
+  }
+}

@@ -8,3 +8,13 @@
   line-height: $line-height-medium;
   color: inherit;
 }
+
+@media (max-width: 320px) {
+  .section-name {
+    font-size: $font-size-small;
+    line-height: $line-height-small + 2px;
+    border-top: 1px solid;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+}

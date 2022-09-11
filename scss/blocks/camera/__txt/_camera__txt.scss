@@ -4,6 +4,12 @@
 
 @media (max-width: 768px) {
   .camera__txt {
-    margin-bottom: 656px + 60px + 60px;    
+    margin-bottom: 656px + 60px + 60px;
+  }
+}
+
+@media (max-width: 320px) {
+  .camera__txt {
+    margin-bottom: 268px + 60px + 60px;
   }
 }

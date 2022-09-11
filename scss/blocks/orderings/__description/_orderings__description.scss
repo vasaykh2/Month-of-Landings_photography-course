@@ -5,3 +5,9 @@
   align-items: flex-start;
   gap: 148px;
 }
+
+@media (max-width: 768px) {
+  .orderings__description {
+    gap: 0;
+  }
+}

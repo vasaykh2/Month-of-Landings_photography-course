@@ -23,3 +23,19 @@
     padding-bottom: 0;
   }
 }
+
+@media (max-width: 320px) {
+  .composition__rool {
+    font-size: $font-size-small;
+    line-height: $line-height-small;
+    margin-top: 14px;
+    padding-bottom: 14px;
+  }
+  .composition__rool:first-of-type {
+    margin-top: 0;
+  }
+  .composition__rool:last-of-type {
+    border: 0;
+    padding-bottom: 0;
+  }
+}

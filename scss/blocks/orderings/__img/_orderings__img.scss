@@ -1,4 +1,18 @@
 .orderings__img {
   width: 648px;
-  height: 333px;
+  aspect-ratio: 648 / 333;
+}
+
+@media (max-width: 768px) {
+  .orderings__img {
+    width: 688px;
+    aspect-ratio: 688 / 360;
+  }
+}
+
+@media (max-width: 320px) {
+  .orderings__img {
+    width: 280px;
+    aspect-ratio: 688 / 360;
+  }
 }

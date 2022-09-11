@@ -1,6 +1,6 @@
 .course__img {
-  width: 642px;  
-  aspect-ratio: 642 / 555;  
+  width: 642px;
+  aspect-ratio: 642 / 555;
 }
 
 @media (max-width: 768px) {
@@ -8,5 +8,13 @@
     width: 688px;
     position: absolute;
     top: 60px + 220px;
+  }
+}
+
+@media (max-width: 320px) {
+  .course__img {
+    width: 280px;
+    position: absolute;
+    top: 60px + 112px;
   }
 }

@@ -17,3 +17,17 @@
     border-bottom: 0;
   }
 }
+
+@media (max-width: 320px) {
+  .camera__feedback {
+    margin-top: 30px;
+    padding-bottom: 30px;
+  }
+  .camera__feedback:first-of-type {
+    margin-top: 0;
+  }
+  .camera__feedback:last-of-type {
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+}

@@ -8,3 +8,17 @@
   line-height: $size-medium;
   color: $txt-dark;
 }
+
+@media (max-width: 768px) {
+  .orderings__subtitle {
+    margin: 40px 0 60px;
+  }
+}
+
+@media (max-width: 320px) {
+  .orderings__subtitle {
+    margin-top: 30px;
+    font-size: $font-size-mobil - 15px;
+    line-height: $line-height-mobil - 18px;
+  }
+}

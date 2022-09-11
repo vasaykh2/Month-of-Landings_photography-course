@@ -23,3 +23,11 @@
   }
 }
 
+@media (max-width: 320px) {
+  .composition__subtitle {
+    margin-bottom: 36px;
+  }
+  .composition__subtitle:last-child {
+    margin-bottom: 30px;
+  }
+}

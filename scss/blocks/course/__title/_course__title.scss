@@ -13,3 +13,11 @@
     margin-bottom: 594px + 60px + 60px;
   }
 }
+
+@media (max-width: 320px) {
+  .course__title {
+    margin-bottom: 242px + 60px + 60px;
+    font-size: $font-size-mobil;
+    line-height: $line-height-mobil;
+  }
+}

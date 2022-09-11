@@ -11,3 +11,12 @@
     top: 60px + 3 * 123px + 40px + 28px;
   }
 }
+
+@media (max-width: 320px) {
+  .camera__img {
+    width: 280px;
+    aspect-ratio: 688 / 656;
+    position: absolute;
+    top: 60px + 3 * 56px + 30px + 20px + 20px + 20px;
+  }
+}

@@ -7,3 +7,10 @@
   font-size: $size-small;
   line-height: $size-small;
 }
+
+@media (max-width: 320px) {
+  .camera__feedback-txt {
+    font-size: $font-size-medium + 4px;
+    line-height: $line-height-medium - 2px;
+  }
+}

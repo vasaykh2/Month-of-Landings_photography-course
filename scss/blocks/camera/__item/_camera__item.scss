@@ -17,3 +17,13 @@
     margin-top: 40px;
   }
 }
+
+@media (max-width: 320px) {
+  .camera__item {
+    font-size: $font-size-mobil + 1px;
+    line-height: $line-height-mobil;
+  }
+  .camera__item:first-of-type {
+    margin-top: 30px;
+  }
+}

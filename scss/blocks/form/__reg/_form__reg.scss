@@ -13,3 +13,13 @@
   border-radius: 0 8px 8px 0;
   border-left: 0;
 }
+
+@media (max-width: 320px) {
+  .form__reg {
+    min-height: 50px;
+    width: 40%;
+    box-sizing: border-box;
+    font-size: $font-size-small - 3px;
+    padding: 0;
+  }
+}

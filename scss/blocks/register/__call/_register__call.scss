@@ -11,3 +11,25 @@
 .register__call:last-of-type {
   margin-bottom: $size-large - 2px;
 }
+
+@media (max-width: 768px) {
+  .register__call {
+    font-size: $font-size-big;
+    line-height: $font-size-big;
+  }
+}
+
+@media (max-width: 320px) {
+  .register__call {
+    border-top: 1px solid;
+    margin-top: 20px;
+    padding-top: 20px;
+    font-size: $font-size-mobil + 1px;
+    line-height: $line-height-mobil - 6px;
+  }
+  .register__call:last-of-type {
+    border-top: 0;
+    margin: 10px 0 2 * $font-size-big;
+    padding-top: 0;
+  }
+}

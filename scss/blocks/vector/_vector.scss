@@ -2,3 +2,9 @@
   max-width: 129px;
   max-height: 95px;
 }
+
+@media (max-width: 768px) {
+  .vector {
+    display: none;
+  }
+}
