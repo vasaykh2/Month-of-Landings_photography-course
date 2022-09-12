@@ -1,4 +1,5 @@
 @import "../../variables";
+@import "../../mixins/pointer";
 
 .button {
   margin: 0;
@@ -11,6 +12,11 @@
   background-color: #fff;
   border: 2px solid #000;
   border-radius: 9999px;
+  @include pointerOpacity;
+}
+
+.button:hover {
+  opacity: 0.6;
 }
 
 @media (max-width: 320px) {

@@ -12,7 +12,7 @@
   </head>
   <body class="body">
     <div class="page">
-      <header class="header header_down">
+      <header class="header">
         <img
           src="./Vendor/images/logo.png"
           alt="Логотип"
@@ -23,11 +23,17 @@
           <li><a class="nav__item" href="#camera">Камера</a></li>
           <li><a class="nav__item" href="#orderings">Поиск заказов</a></li>
         </ul>
-        <img
-          src="./Vendor/images/burgerMenu.png"
-          alt="Выпадающее меню"
-          class="burgerMenu"
-        />
+        <button
+          type="button"
+          class="burgerMenu__button"
+          title="Открыть меню навигации"
+        >
+          <img
+            src="./Vendor/images/burgerMenu.png"
+            alt="Выпадающее меню"
+            class="burgerMenu"
+          />
+        </button>
       </header>
       <main class="content">
         <article class="wrapper course">
@@ -105,7 +111,9 @@
                 <p class="camera__item">Съемка</p>
                 <p class="camera__item">Обработка</p>
               </section>
-              <h2 class="section-name section-name_feedbacks">отзывы про часть о камерах:</h2>
+              <h2 class="section-name section-name_feedbacks">
+                отзывы про часть о камерах:
+              </h2>
             </section>
             <div class="camera__img">
               <img
@@ -184,7 +192,7 @@
       <footer class="wrapper footer">
         <p class="footer__copyright">2022 Photo-lessons.</p>
       </footer>
-      <div class="popup popup_opened">
+      <div class="popup">
         <div class="popup__container">
           <img
             src="./Vendor/images/logo.png"

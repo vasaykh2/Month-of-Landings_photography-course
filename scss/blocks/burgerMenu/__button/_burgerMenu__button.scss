@@ -1,0 +1,13 @@
+@import "../../../variables";
+
+.burgerMenu__button {
+  border: 0;
+  background-color: rgba($yellow, 0);
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .burgerMenu__button {
+    display: inline;
+  }
+}
