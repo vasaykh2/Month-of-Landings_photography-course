@@ -1,8 +1,8 @@
 @import "../../../variables";
 
 .popup__container {
-  width: 100%;  
-  position: relative; 
+  width: 100%;
+  position: relative;
   background-color: $red;
   display: flex;
   justify-content: space-between;
@@ -10,7 +10,7 @@
   padding: 30px 22px 30px 40px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: $screen_m) {
   .popup__container {
     align-items: flex-start;
     padding: 20px 20px 26px;

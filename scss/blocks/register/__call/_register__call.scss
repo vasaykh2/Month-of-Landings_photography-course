@@ -12,26 +12,26 @@
   margin-bottom: $size-large - 2px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: $screen_xl) {
   .register__call {
     font-size: $font-size-big;
     line-height: $font-size-big;
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: $screen_l) {
   .register__call {
     font-size: $font-size-big - 20px;
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: $screen_m) {
   .register__call {
     font-size: $font-size-big - 50px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: $screen_xs) {
   .register__call {
     border-top: 1px solid;
     margin-top: 20px;

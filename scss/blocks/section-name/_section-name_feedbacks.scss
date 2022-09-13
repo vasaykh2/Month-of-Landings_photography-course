@@ -1,8 +1,10 @@
+@import "../../variables";
+
 .section-name_feedbacks {
   color: inherit;
 }
 
-@media (max-width: 320px) {
+@media (max-width: $screen_xs) {
   .section-name_feedbacks {
     border: 0;
     margin: 0;

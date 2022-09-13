@@ -9,7 +9,7 @@
   color: inherit;
 }
 
-@media (max-width: 320px) {
+@media (max-width: $screen_xs) {
   .section-name {
     font-size: $font-size-small;
     line-height: $line-height-small + 2px;

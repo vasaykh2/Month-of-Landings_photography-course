@@ -1,8 +1,10 @@
+@import "../../../variables";
+
 .popup__nav {
   display: none;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: $screen_xl) {
   .popup__nav {
     display: flex;
     justify-content: space-between;
@@ -11,12 +13,12 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: $screen_m) {
   .popup__nav {
     margin: 56px auto 0;
     padding-right: 60px;
     flex-direction: column;
-    justify-content: flex-end;    
+    justify-content: flex-end;
     gap: 12px;
   }
 }

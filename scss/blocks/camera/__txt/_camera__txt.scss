@@ -1,26 +1,28 @@
+@import "../../../variables";
+
 .camera__txt {
   width: 100%;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: $screen_xl) {
   .camera__txt {
     margin-bottom: 656px + 60px + 60px;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: $screen_l) {
   .camera__txt {
     margin-bottom: 500px + 60px + 60px;
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: $screen_s) {
   .camera__txt {
     margin-bottom: 300px + 60px + 60px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: $screen_xs) {
   .camera__txt {
     margin-bottom: 268px + 60px + 60px;
   }

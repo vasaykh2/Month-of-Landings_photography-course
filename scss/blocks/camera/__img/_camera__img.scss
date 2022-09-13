@@ -1,9 +1,11 @@
+@import "../../../variables";
+
 .camera__img {
   width: 642px;
   aspect-ratio: 642 / 832;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: $screen_xl) {
   .camera__img {
     width: 688px;
     aspect-ratio: 688 / 656;
@@ -12,19 +14,19 @@
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: $screen_l) {
   .camera__img {
     width: 500px;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: $screen_m) {
   .camera__img {
     width: 400px;
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: $screen_s) {
   .camera__img {
     width: 280px;
   }

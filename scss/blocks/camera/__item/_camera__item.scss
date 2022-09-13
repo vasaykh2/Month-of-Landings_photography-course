@@ -12,13 +12,13 @@
   margin-top: 50px;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: $screen_xxl) {
   .camera__item {
     font-size: $size-large - 50px;
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: $screen_xl) {
   .camera__item {
     font-size: $size-large;
   }
@@ -27,13 +27,13 @@
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: $screen_l) {
   .camera__item {
     font-size: $size-large - 50px;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: $screen_ss) {
   .camera__item {
     font-size: $font-size-mobil + 1px;
     line-height: $line-height-mobil;

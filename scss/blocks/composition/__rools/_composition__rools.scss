@@ -1,3 +1,5 @@
+@import "../../../variables";
+
 .composition__rools {
   list-style-type: none;
   margin: 100px 0 0;
@@ -8,7 +10,7 @@
   gap: 56px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: $screen_xl) {
   .composition__rools {
     margin-top: 80px;
     width: 100%;

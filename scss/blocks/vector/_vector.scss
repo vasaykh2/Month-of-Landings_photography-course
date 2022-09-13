@@ -1,9 +1,10 @@
+@import "../../variables";
 .vector {
   max-width: 129px;
   max-height: 95px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: $screen_xl) {
   .vector {
     display: none;
   }

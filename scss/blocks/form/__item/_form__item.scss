@@ -13,7 +13,7 @@
   border-radius: 8px 0 0 8px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: $screen_xs) {
   .form__item {
     min-height: 50px;
     width: 54%;

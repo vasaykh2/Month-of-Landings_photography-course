@@ -1,3 +1,5 @@
+@import "../../../variables";
+
 .popup__close-button {
   width: 27px;
   height: 27px;
@@ -17,7 +19,7 @@
   opacity: 0.6;
 }
 
-@media (max-width: 500px) {
+@media (max-width: $screen_m) {
   .popup__close-button {
     top: 22px;
   }

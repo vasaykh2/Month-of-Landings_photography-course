@@ -8,7 +8,7 @@
   line-height: $size-small;
 }
 
-@media (max-width: 400px) {
+@media (max-width: $screen_s) {
   .camera__feedback-txt {
     font-size: $font-size-medium + 4px;
     line-height: $line-height-medium - 2px;

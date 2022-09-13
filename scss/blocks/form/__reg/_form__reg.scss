@@ -14,7 +14,7 @@
   border-left: 0;
 }
 
-@media (max-width: 320px) {
+@media (max-width: $screen_xs) {
   .form__reg {
     min-height: 50px;
     width: 40%;

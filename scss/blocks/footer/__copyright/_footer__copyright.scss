@@ -8,10 +8,8 @@
   color: $white;
 }
 
-@media (max-width: 320px) {
+@media (max-width: $screen_xs) {
   .footer__copyright {
-    
     font-size: $font-size-small - 2px;
-    
   }
 }

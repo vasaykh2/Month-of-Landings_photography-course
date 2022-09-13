@@ -1,3 +1,5 @@
+@import "../../../variables";
+
 .camera__feedbacks {
   list-style-type: none;
   margin: 180px 0 0;
@@ -8,14 +10,14 @@
   gap: 172px;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: $screen_xl) {
   .camera__feedbacks {
     flex-direction: column;
     gap: 0;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: $screen_xs) {
   .camera__feedbacks {
     margin-top: 60px;
   }

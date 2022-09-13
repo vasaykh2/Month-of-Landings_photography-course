@@ -1,9 +1,11 @@
+@import "../../../variables";
+
 .composition__img {
   width: 642px;
   aspect-ratio: 642 / 685;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: $screen_xl) {
   .composition__img {
     width: 688px;
     aspect-ratio: 688 /685;
@@ -12,26 +14,26 @@
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: $screen_l) {
   .composition__img {
     width: 500px;
     aspect-ratio: 280 / 278;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: $screen_m) {
   .composition__img {
     width: 400px;
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: $screen_s) {
   .composition__img {
     width: 280px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: $screen_xs) {
   .composition__img {
     top: 60px + 76px + 30px + 20px + 20px + 20px;
   }

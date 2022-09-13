@@ -1,6 +1,8 @@
+@import "../../variables";
+
 .burgerMenu {
   display: none;
-  cursor: pointer; 
+  cursor: pointer;
   transition: opacity 0.4s linear;
 }
 
@@ -8,7 +10,7 @@
   opacity: 0.6;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: $screen_xl) {
   .burgerMenu {
     display: inline;
   }

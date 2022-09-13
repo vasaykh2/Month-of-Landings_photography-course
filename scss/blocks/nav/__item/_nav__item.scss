@@ -1,4 +1,5 @@
 @import "../../../variables";
+@import "../../../mixins/pointer";
 
 .nav__item {
   text-decoration: none;
@@ -6,4 +7,9 @@
   font-weight: $font-weight-norm;
   line-height: $line-height-norm;
   color: $txt-light;
+  @include pointerOpacity;
+}
+
+.nav__item:hover {
+  opacity: 0.6;
 }

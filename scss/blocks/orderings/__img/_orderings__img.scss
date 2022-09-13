@@ -1,28 +1,30 @@
+@import "../../../variables";
+
 .orderings__img {
   width: 648px;
   aspect-ratio: 648 / 333;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: $screen_xl) {
   .orderings__img {
     width: 688px;
     aspect-ratio: 688 / 360;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: $screen_l) {
   .orderings__img {
     width: 500px;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: $screen_m) {
   .orderings__img {
     width: 400px;
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: $screen_s) {
   .orderings__img {
     width: 280px;
   }

@@ -13,8 +13,7 @@ $font-weight-bold: 700;
 
 $font-size-small: 14px;
 //16px
-$font-size-norm: 
-$font-size-small + 2px;
+$font-size-norm: $font-size-small + 2px;
 //20px
 $font-size-medium: $font-size-small + 6px;
 //47px
@@ -37,3 +36,11 @@ $line-height-medium: $line-height-norm + 4px;
 $line-height-mobil: $line-height-medium * 2;
 //110px
 $line-height-big: $line-height-norm * 4 + 14px;
+
+$screen_xs: 320px;
+$screen_ss: 400px;
+$screen_s: 440px;
+$screen_m: 550px;
+$screen_l: 750px;
+$screen_xl: 1100px;
+$screen_xxl: 1400px;

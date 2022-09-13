@@ -363,7 +363,7 @@ template {
   margin-top: 144px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 440px) {
   .header_down {
     margin-top: 258px;
   }
@@ -398,6 +398,12 @@ template {
   font-weight: 400;
   line-height: 24px;
   color: #fbfbfb;
+  cursor: cursor;
+  transition: opacity 0.4s linear;
+}
+
+.nav__item:hover {
+  opacity: 0.6;
 }
 
 .burgerMenu {
@@ -463,11 +469,19 @@ template {
     position: relative;
   }
 }
+.course__container {
+  color: inherit;
+}
+
 .course__main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.course__txt {
+  color: inherit;
 }
 
 .course__title {
@@ -595,11 +609,19 @@ template {
   background-color: #ffce00;
 }
 
+.composition__container {
+  color: inherit;
+}
+
 .composition__main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+}
+
+.composition__txt {
+  color: inherit;
 }
 
 .section-name {
@@ -802,6 +824,10 @@ template {
   color: #fff;
 }
 
+.camera__container {
+  color: inherit;
+}
+
 .camera__main {
   display: flex;
   flex-direction: column;
@@ -966,7 +992,7 @@ template {
   line-height: 43px;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
   .camera__feedback-txt {
     font-size: 24px;
     line-height: 26px;
@@ -991,6 +1017,18 @@ template {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
+}
+
+.orderings {
+  color: inherit;
+}
+
+.orderings__container {
+  color: inherit;
+}
+
+.orderings__main {
+  color: inherit;
 }
 
 .orderings__subtitle {
@@ -1097,6 +1135,10 @@ template {
     display: none;
   }
 }
+.register__container {
+  color: inherit;
+}
+
 .register__call {
   margin: 0;
   max-width: 685px;
@@ -1116,12 +1158,12 @@ template {
     line-height: 100px;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 750px) {
   .register__call {
     font-size: 80px;
   }
 }
-@media (max-width: 650px) {
+@media (max-width: 550px) {
   .register__call {
     font-size: 50px;
   }
@@ -1233,7 +1275,7 @@ template {
   padding: 30px 22px 30px 40px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .popup__container {
     align-items: flex-start;
     padding: 20px 20px 26px;
@@ -1258,7 +1300,7 @@ template {
   opacity: 0.6;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .popup__close-button {
     top: 22px;
   }
@@ -1275,7 +1317,7 @@ template {
     gap: 40px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .popup__nav {
     margin: 56px auto 0;
     padding-right: 60px;
@@ -1288,7 +1330,7 @@ template {
   display: none;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 550px) {
   .popup__logo {
     display: inline;
   }
