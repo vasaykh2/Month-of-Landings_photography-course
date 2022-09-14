@@ -363,7 +363,7 @@ template {
   margin-top: 144px;
 }
 
-@media (max-width: 440px) {
+@media (max-width: 550px) {
   .header_down {
     margin-top: 258px;
   }
