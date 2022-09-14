@@ -1,6 +1,6 @@
 @import "../variables";
 
 @mixin pointerOpacity($cursor: pointer, $opacityS: 0.4s, $opacityT: linear) {
-  cursor: cursor;
+  cursor: pointer;;
   transition: opacity $opacityS $opacityT;
 }
