@@ -1,13 +1,25 @@
 @import "../../../variables";
 
 .course__img {
-  width: 642px;
+  max-width: 642px;
   aspect-ratio: 642 / 555;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
 }
 
-@media (max-width: $screen_xl) {
+@media screen and (max-width: $screen_xxl) {
   .course__img {
+    max-width: 400px;
+    aspect-ratio: 400 / 388;
+  }
+}
+
+@media screen and (max-width: $screen_xl) {
+  .course__img {
+    max-width: 688px;
     width: 688px;
+    height: 594px;
     position: absolute;
     top: 60px + 220px;
   }

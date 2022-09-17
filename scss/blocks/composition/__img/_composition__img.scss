@@ -1,13 +1,17 @@
 @import "../../../variables";
 
 .composition__img {
-  width: 642px;
+  max-width: 642px;
   aspect-ratio: 642 / 685;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: $screen_xl) {
   .composition__img {
-    width: 688px;
+    max-width: 688px;
+    height: 685px;
     aspect-ratio: 688 /685;
     position: absolute;
     top: 60px + 128px + 40px + 28px;

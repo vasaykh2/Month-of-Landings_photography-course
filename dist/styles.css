@@ -399,11 +399,11 @@ template {
   line-height: 24px;
   color: #fbfbfb;
   cursor: pointer;
-  transition: opacity 0.4s linear;
+  transition: font-weight 0.5s linear;
 }
 
 .nav__item:hover {
-  opacity: 0.6;
+  font-weight: 700;
 }
 
 .burgerMenu {
@@ -568,19 +568,29 @@ template {
   }
 }
 .img {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
+  object-fit: cover;
+  height: inherit;
 }
 
 .course__img {
-  width: 642px;
+  max-width: 642px;
   aspect-ratio: 642/555;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
 }
 
-@media (max-width: 1100px) {
+@media screen and (max-width: 1400px) {
   .course__img {
+    max-width: 400px;
+    aspect-ratio: 400/388;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .course__img {
+    max-width: 688px;
     width: 688px;
+    height: 594px;
     position: absolute;
     top: 280px;
   }
@@ -727,13 +737,17 @@ template {
   }
 }
 .composition__img {
-  width: 642px;
+  max-width: 642px;
   aspect-ratio: 642/685;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 1100px) {
   .composition__img {
-    width: 688px;
+    max-width: 688px;
+    height: 685px;
     aspect-ratio: 688/685;
     position: absolute;
     top: 256px;
@@ -899,31 +913,35 @@ template {
   }
 }
 .camera__img {
-  width: 642px;
-  aspect-ratio: 642/832;
+  max-width: 642px;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
 }
 
 @media (max-width: 1100px) {
   .camera__img {
+    max-width: 688px;
     width: 688px;
-    aspect-ratio: 688/656;
+    height: 656px;
     position: absolute;
     top: 497px;
   }
 }
 @media (max-width: 750px) {
   .camera__img {
-    width: 500px;
+    max-width: 500px;
+    aspect-ratio: 688/656;
   }
 }
 @media (max-width: 550px) {
   .camera__img {
-    width: 400px;
+    max-width: 400px;
   }
 }
 @media (max-width: 440px) {
   .camera__img {
-    width: 280px;
+    max-width: 280px;
   }
 }
 @media (max-width: 400px) {
@@ -1053,29 +1071,37 @@ template {
   }
 }
 .orderings__img {
-  width: 648px;
-  aspect-ratio: 648/333;
+  max-width: 648px;
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
 }
 
+@media screen and (max-width: 1400px) {
+  .orderings__img {
+    max-width: 500px;
+  }
+}
 @media (max-width: 1100px) {
   .orderings__img {
-    width: 688px;
-    aspect-ratio: 688/360;
+    max-width: 688px;
+    height: 360px;
   }
 }
 @media (max-width: 750px) {
   .orderings__img {
-    width: 500px;
+    max-width: 500px;
+    aspect-ratio: 688/360;
   }
 }
 @media (max-width: 550px) {
   .orderings__img {
-    width: 400px;
+    max-width: 400px;
   }
 }
 @media (max-width: 440px) {
   .orderings__img {
-    width: 280px;
+    max-width: 280px;
   }
 }
 .orderings__description {

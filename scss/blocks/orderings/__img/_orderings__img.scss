@@ -1,31 +1,41 @@
 @import "../../../variables";
 
 .orderings__img {
-  width: 648px;
-  aspect-ratio: 648 / 333;
+  max-width: 648px;
+ 
+  overflow: visible;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: $screen_xxl) {
+  .orderings__img {
+    max-width: 500px;
+  }
 }
 
 @media (max-width: $screen_xl) {
   .orderings__img {
-    width: 688px;
-    aspect-ratio: 688 / 360;
+    max-width: 688px;
+    height: 360px;
   }
 }
 
 @media (max-width: $screen_l) {
   .orderings__img {
-    width: 500px;
+    max-width: 500px;
+    aspect-ratio: 688 / 360;
   }
 }
 
 @media (max-width: $screen_m) {
   .orderings__img {
-    width: 400px;
+    max-width: 400px;
   }
 }
 
 @media (max-width: $screen_s) {
   .orderings__img {
-    width: 280px;
+    max-width: 280px;
   }
 }

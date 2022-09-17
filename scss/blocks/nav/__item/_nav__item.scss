@@ -7,9 +7,9 @@
   font-weight: $font-weight-norm;
   line-height: $line-height-norm;
   color: $txt-light;
-  @include pointerOpacity;
+  @include pointerBold;
 }
 
 .nav__item:hover {
-  opacity: 0.6;
+  font-weight: $font-weight-bold;
 }
