@@ -501,21 +501,16 @@ template {
 @media (max-width: 750px) {
   .course__title {
     font-size: 80px;
+    margin-bottom: 520px;
   }
 }
 @media (max-width: 550px) {
   .course__title {
     font-size: 60px;
+    margin-bottom: 470px;
   }
 }
 @media (max-width: 440px) {
-  .course__title {
-    margin-bottom: 420px;
-    font-size: 47px;
-    line-height: 56px;
-  }
-}
-@media (max-width: 320px) {
   .course__title {
     margin-bottom: 362px;
     font-size: 47px;
@@ -574,7 +569,7 @@ template {
 
 .course__img {
   max-width: 642px;
-  aspect-ratio: 642/555;
+  height: 555px;
   overflow: visible;
   display: flex;
   flex-direction: column;
@@ -583,7 +578,7 @@ template {
 @media screen and (max-width: 1400px) {
   .course__img {
     max-width: 400px;
-    aspect-ratio: 400/388;
+    height: 388px;
   }
 }
 @media screen and (max-width: 1100px) {
@@ -598,20 +593,19 @@ template {
 @media (max-width: 750px) {
   .course__img {
     width: 500px;
+    height: 432px;
   }
 }
 @media (max-width: 550px) {
   .course__img {
     width: 400px;
+    height: 346px;
   }
 }
 @media (max-width: 440px) {
   .course__img {
-    width: 280px;
-  }
-}
-@media (max-width: 320px) {
-  .course__img {
+    max-width: 280px;
+    height: 242px;
     top: 172px;
   }
 }
@@ -698,10 +692,6 @@ template {
   .composition__title {
     font-size: 30px;
     line-height: 38px;
-  }
-}
-@media (max-width: 320px) {
-  .composition__title {
     margin-bottom: 398px;
     margin-top: 30px;
   }
@@ -738,7 +728,7 @@ template {
 }
 .composition__img {
   max-width: 642px;
-  aspect-ratio: 642/685;
+  height: 685px;
   overflow: visible;
   display: flex;
   flex-direction: column;
@@ -756,17 +746,22 @@ template {
 @media (max-width: 750px) {
   .composition__img {
     width: 500px;
+    height: 496px;
     aspect-ratio: 280/278;
   }
 }
 @media (max-width: 550px) {
   .composition__img {
     width: 400px;
+    height: 397px;
+    aspect-ratio: 400/397;
   }
 }
 @media (max-width: 440px) {
   .composition__img {
-    width: 280px;
+    max-width: 280px;
+    height: 278px;
+    top: 156px;
   }
 }
 @media (max-width: 320px) {
@@ -942,6 +937,7 @@ template {
 @media (max-width: 440px) {
   .camera__img {
     max-width: 280px;
+    height: 268px;
   }
 }
 @media (max-width: 400px) {
@@ -1091,17 +1087,19 @@ template {
 @media (max-width: 750px) {
   .orderings__img {
     max-width: 500px;
-    aspect-ratio: 688/360;
+    height: 263px;
   }
 }
 @media (max-width: 550px) {
   .orderings__img {
     max-width: 400px;
+    height: 210px;
   }
 }
 @media (max-width: 440px) {
   .orderings__img {
     max-width: 280px;
+    height: 147px;
   }
 }
 .orderings__description {

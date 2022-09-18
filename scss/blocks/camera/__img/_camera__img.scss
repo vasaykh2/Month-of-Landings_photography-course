@@ -2,7 +2,6 @@
 
 .camera__img {
   max-width: 642px;
-
   overflow: visible;
   display: flex;
   flex-direction: column;
@@ -34,6 +33,7 @@
 @media (max-width: $screen_s) {
   .camera__img {
     max-width: 280px;
+    height: 268px;
   }
 }
 

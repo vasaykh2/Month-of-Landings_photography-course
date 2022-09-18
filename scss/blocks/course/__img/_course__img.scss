@@ -2,7 +2,7 @@
 
 .course__img {
   max-width: 642px;
-  aspect-ratio: 642 / 555;
+  height: 555px;
   overflow: visible;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
 @media screen and (max-width: $screen_xxl) {
   .course__img {
     max-width: 400px;
-    aspect-ratio: 400 / 388;
+    height: 388px;
   }
 }
 
@@ -28,23 +28,21 @@
 @media (max-width: $screen_l) {
   .course__img {
     width: 500px;
+    height: 432px;
   }
 }
 
 @media (max-width: $screen_m) {
   .course__img {
     width: 400px;
+    height: 346px;
   }
 }
 
 @media (max-width: $screen_s) {
   .course__img {
-    width: 280px;
-  }
-}
-
-@media (max-width: $screen_xs) {
-  .course__img {
+    max-width: 280px;
+    height: 242px;
     top: 60px + 112px;
   }
 }

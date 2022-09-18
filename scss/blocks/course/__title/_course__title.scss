@@ -18,24 +18,18 @@
 @media (max-width: $screen_l) {
   .course__title {
     font-size: $font-size-big - 20px;
+    margin-bottom: 400px + 60px + 60px;
   }
 }
 
 @media (max-width: $screen_m) {
   .course__title {
     font-size: $font-size-big - 40px;
+    margin-bottom: 350px + 60px + 60px;
   }
 }
 
 @media (max-width: $screen_s) {
-  .course__title {
-    margin-bottom: 300px + 60px + 60px;
-    font-size: $font-size-mobil;
-    line-height: $line-height-mobil;
-  }
-}
-
-@media (max-width: $screen_xs) {
   .course__title {
     margin-bottom: 242px + 60px + 60px;
     font-size: $font-size-mobil;

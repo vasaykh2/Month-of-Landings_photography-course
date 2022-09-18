@@ -39,11 +39,6 @@
   .composition__title {
     font-size: $font-size-medium + 10px;
     line-height: $line-height-medium + 10px;
-  }
-}
-
-@media (max-width: $screen_xs) {
-  .composition__title {
     margin-bottom: 278px + 60px + 60px;
     margin-top: 30px;
   }

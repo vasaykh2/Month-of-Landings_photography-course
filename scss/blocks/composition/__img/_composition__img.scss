@@ -2,7 +2,7 @@
 
 .composition__img {
   max-width: 642px;
-  aspect-ratio: 642 / 685;
+  height: 685px;
   overflow: visible;
   display: flex;
   flex-direction: column;
@@ -12,7 +12,7 @@
   .composition__img {
     max-width: 688px;
     height: 685px;
-    aspect-ratio: 688 /685;
+    aspect-ratio: 688 / 685;
     position: absolute;
     top: 60px + 128px + 40px + 28px;
   }
@@ -21,6 +21,7 @@
 @media (max-width: $screen_l) {
   .composition__img {
     width: 500px;
+    height: 496px;
     aspect-ratio: 280 / 278;
   }
 }
@@ -28,12 +29,16 @@
 @media (max-width: $screen_m) {
   .composition__img {
     width: 400px;
+    height: 397px;
+    aspect-ratio: 400 / 397;
   }
 }
 
 @media (max-width: $screen_s) {
   .composition__img {
-    width: 280px;
+    max-width: 280px;
+    height: 278px;
+    top: 60px + 76px + 20px;
   }
 }
 
