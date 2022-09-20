@@ -17,6 +17,9 @@
     font-size: $font-size-big;
     line-height: $font-size-big;
   }
+  .register__call:last-of-type {
+    margin-bottom: $size-large + 68px;
+  }
 }
 
 @media (max-width: $screen_l) {

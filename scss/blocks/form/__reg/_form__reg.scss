@@ -1,9 +1,10 @@
 @import "../../../variables";
+@import "../../../mixins/pointer";
 
 .form__reg {
   margin: 0;
-  max-width: 348px;
-  max-height: 50px;
+  width: 205px;
+  height: 50px;
   font-weight: $font-weight-norm;
   font-size: $font-size-small;
   line-height: $line-height-norm;
@@ -11,14 +12,23 @@
   color: $txt-dark;
   border: 2px solid #000;
   border-radius: 0 8px 8px 0;
-  border-left: 0;
+  box-sizing: border-box;
+  @include pointerBold;
+}
+
+.form__reg:hover {
+  font-weight: $font-weight-hover;
+}
+
+@media (max-width: $screen_l) {
+  .form__reg {
+    width: 100px;
+  }
 }
 
 @media (max-width: $screen_xs) {
   .form__reg {
-    min-height: 50px;
-    width: 40%;
-    box-sizing: border-box;
+    width: 105px;
     font-size: $font-size-small - 3px;
     padding: 0;
   }

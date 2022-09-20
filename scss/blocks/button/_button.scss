@@ -12,11 +12,11 @@
   background-color: #fff;
   border: 2px solid #000;
   border-radius: 9999px;
-  @include pointerOpacity;
+  @include pointerBold;
 }
 
 .button:hover {
-  opacity: 0.6;
+  font-weight: $font-weight-hover;
 }
 
 @media (max-width: $screen_xs) {
