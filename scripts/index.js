@@ -22,12 +22,16 @@ function closePopup(popup) {
 
 //обновление поля формы
 function updateForm() {
-  inputEMail.value = '';
+  inputEMail.placeholder = '';
 }
 
 //функция submit для формы регистрации E-mail
 function handleFormSubmit(evt) {
+  const a = inputEMail.textContent;
+  
   evt.preventDefault();
+  inputEMail.placeholder = a;
+  registButton.textContent = 'Спасибо';
 }
 
 //функция реакции на нажатие пункта меню навигации popup
@@ -42,6 +46,9 @@ closePopupButtons.forEach((button) => {
   // обработчик закрытия на крестик
   button.addEventListener('click', () => closePopup(popup));
 });
+
+//обработчик наведения для формы регистрации E-mail
+inputEMail.addEventListener('focus', updateForm);
 
 //обработчик submit для формы регистрации E-mail
 registButton.addEventListener('submit', handleFormSubmit);
