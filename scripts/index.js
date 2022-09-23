@@ -11,13 +11,13 @@ const registButton = form.querySelector('.form__reg');
 //открытие popup
 function openPopup(popup) {
   popup.classList.add('popup_opened');
-  header.classList.add('header_down');
+  header.classList.add('header_type_down');
 }
 
 //закрытие popup
 function closePopup(popup) {
   popup.classList.remove('popup_opened');
-  header.classList.remove('header_down');
+  header.classList.remove('header_type_down');
 }
 
 //обновление поля формы
@@ -27,11 +27,9 @@ function updateForm() {
 
 //функция submit для формы регистрации E-mail
 function handleFormSubmit(evt) {
-  const a = inputEMail.textContent;
-  
   evt.preventDefault();
-  inputEMail.placeholder = a;
-  registButton.textContent = 'Спасибо';
+  inputEMail.placeholder = inputEMail.textContent;
+  registButton.textContent = 'Спасибо!';
 }
 
 //функция реакции на нажатие пункта меню навигации popup
@@ -51,7 +49,7 @@ closePopupButtons.forEach((button) => {
 inputEMail.addEventListener('focus', updateForm);
 
 //обработчик submit для формы регистрации E-mail
-registButton.addEventListener('submit', handleFormSubmit);
+form.addEventListener('submit', handleFormSubmit);
 
 //обработчик всех пунктов меню навигации popup
 itemsNavPopup.forEach((item) =>

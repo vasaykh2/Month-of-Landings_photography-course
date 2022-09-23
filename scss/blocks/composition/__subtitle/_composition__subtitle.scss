@@ -26,6 +26,8 @@
 @media (max-width: $screen_xs) {
   .composition__subtitle {
     margin-bottom: 36px;
+    font-size: $font-size-small;
+  line-height: $line-height-small;
   }
   .composition__subtitle:last-child {
     margin-bottom: 30px;

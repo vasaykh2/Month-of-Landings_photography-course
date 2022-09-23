@@ -18,6 +18,12 @@
   }
 }
 
+@media (max-width: ($screen_xxl - 200px)) {
+  .camera__item {
+    font-size: $size-large - 60px;
+  }
+}
+
 @media (max-width: $screen_xl) {
   .camera__item {
     font-size: $size-large;

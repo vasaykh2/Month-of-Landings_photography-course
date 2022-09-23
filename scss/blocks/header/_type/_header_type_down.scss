@@ -1,11 +1,11 @@
 @import "../../../variables";
 
-.header_down {
+.header_type_down {
   margin-top: 60px + 84px;
 }
 
 @media (max-width: $screen_m) {
-  .header_down {
+  .header_type_down {
     margin-top: 60px + 198px;
   }
 }

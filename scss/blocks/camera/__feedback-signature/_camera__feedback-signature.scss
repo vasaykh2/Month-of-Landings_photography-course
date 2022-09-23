@@ -11,5 +11,7 @@
 @media (max-width: $screen_xs) {
   .camera__feedback-signature {
     margin: 30px 0 6px;
+    font-size: $font-size-small;
+    line-height: $line-height-small + 2px;
   }
 }

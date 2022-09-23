@@ -1,3 +1,11 @@
+@import "../../variables";
+
 .orderings {
   color: inherit;
+}
+
+@media (max-width: $screen_xs) {
+  .orderings {
+    padding-top: 20px;
+  }
 }

@@ -11,12 +11,13 @@
 
 @media (max-width: $screen_xl) {
   .register {
-    padding-bottom: 40px;
+    padding-bottom: 30px;
   }
 }
 
 @media (max-width: $screen_xs) {
   .register {
+    padding-top: 20px;
     padding-bottom: 20px;
   }
 }

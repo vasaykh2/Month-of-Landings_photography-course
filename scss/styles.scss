@@ -6,7 +6,7 @@
 
 @use "./blocks/header/header";
 @use "./blocks/header/__nav/header__nav";
-@use "./blocks/header/_down/header_down";
+@use "./blocks/header/_type/header_type_down";
 
 @use "./blocks/rotation/rotation";
 @use "./blocks/logo/logo";
@@ -43,7 +43,7 @@
 @use "./blocks/composition/__txt/composition__txt";
 
 @use "./blocks/section-name/section-name";
-@use "./blocks/section-name/section-name_feedbacks";
+@use "./blocks/section-name/_type/section-name_type_feedbacks";
 
 @use "./blocks/composition/__title/composition__title";
 @use "./blocks/composition/__subtitle/composition__subtitle";

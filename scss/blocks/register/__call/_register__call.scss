@@ -30,6 +30,7 @@
 
 @media (max-width: $screen_m) {
   .register__call {
+    max-width: 400px;
     font-size: $font-size-big - 50px;
   }
 }

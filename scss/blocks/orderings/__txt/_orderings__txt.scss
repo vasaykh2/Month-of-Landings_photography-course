@@ -1,6 +1,7 @@
 @import "../../../variables";
 
 .orderings__txt {
+  margin: 0;
   max-width: 380px;
   font-weight: $font-weight-norm;
   font-size: ($font-size-norm + $font-size-medium) / 2;

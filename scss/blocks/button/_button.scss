@@ -2,8 +2,9 @@
 @import "../../mixins/pointer";
 
 .button {
+  box-sizing: border-box;
   margin: 0;
-  padding: 10px 67px;
+  padding: 9px 62px;
   font-family: $font-family;
   font-weight: $font-weight-norm;
   font-size: ($font-size-norm + $font-size-medium) / 2;
@@ -19,8 +20,9 @@
   font-weight: $font-weight-hover;
 }
 
-@media (max-width: $screen_xs) {
+@media (max-width: $screen_ss) {
   .button {
     font-size: $font-size-small;
+    padding: 4px 46px;
   }
 }
