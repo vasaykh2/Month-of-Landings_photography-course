@@ -1,5 +1,5 @@
 const header = document.querySelector('.header');
-const openPopupNav = header.querySelector('.burgerMenu__button');
+const openPopupNav = header.querySelector('.burger-menu__button');
 const popup = document.querySelector('.popup');
 const closePopupButtons = document.querySelectorAll('.popup__close-button');
 const itemsNavPopup = popup.querySelectorAll('.nav__item');

@@ -15,25 +15,27 @@
           alt="Логотип"
           class="logo rotation"
         />
-        <ul class="nav header__nav">
-          <li><a class="nav__item" href="#composition">Композиция</a></li>
-          <li><a class="nav__item" href="#camera">Камера</a></li>
-          <li><a class="nav__item" href="#orderings">Поиск заказов</a></li>
-        </ul>
+        <nav>
+          <ul class="nav header__nav">
+            <li><a class="nav__item" href="#composition">Композиция</a></li>
+            <li><a class="nav__item" href="#camera">Камера</a></li>
+            <li><a class="nav__item" href="#orderings">Поиск заказов</a></li>
+          </ul>
+        </nav>
         <button
           type="button"
-          class="burgerMenu__button"
+          class="burger-menu__button"
           title="Открыть меню навигации"
         >
           <img
-            src="./Vendor/images/burgerMenu.png"
+            src="./Vendor/images/burger-menu.svg"
             alt="Выпадающее меню"
-            class="burgerMenu"
+            class="burger-menu"
           />
         </button>
       </header>
       <main class="content">
-        <article class="wrapper course">
+        <section class="wrapper course">
           <div class="container course__container">
             <section class="course__main">
               <section class="course__txt">
@@ -55,8 +57,8 @@
               />
             </div>
           </div>
-        </article>
-        <article class="wrapper composition" id="composition">
+        </section>
+        <section class="wrapper composition" id="composition">
           <div class="container composition__container">
             <section class="composition__main">
               <section class="composition__txt">
@@ -98,8 +100,8 @@
               предметами.
             </li>
           </ul>
-        </article>
-        <article class="wrapper camera" id="camera">
+        </section>
+        <section class="wrapper camera" id="camera">
           <div class="container camera__container">
             <section class="camera__main">
               <section class="camera__txt">
@@ -138,8 +140,8 @@
               <p class="camera__feedback-address">@john_sport</p>
             </li>
           </ul>
-        </article>
-        <article class="wrapper orderings" id="orderings">
+        </section>
+        <section class="wrapper orderings" id="orderings">
           <div class="container orderings__container">
             <section class="orderings__main">
               <h2 class="section-name">поиск заказов</h2>
@@ -162,11 +164,11 @@
               </button>
             </section>
           </div>
-        </article>
+        </section>
         <section class="wrapper register">
-          <img src="./Vendor/images/vector.png" alt="Стрелка" class="vector" />
+          <img src="./Vendor/images/Vector.svg" alt="Стрелка" class="vector" />
           <div class="register__container">
-            <p class="register__call">Записаться! Сейчас!</p>      
+            <p class="register__call">Записаться! Сейчас!</p>
             <form class="form" name="formReg" novalidate="">
               <input
                 type="text"
@@ -193,11 +195,13 @@
             alt="Логотип"
             class="logo rotation popup__logo"
           />
-          <ul class="nav popup__nav">
-            <li><a class="nav__item" href="#composition">Композиция</a></li>
-            <li><a class="nav__item" href="#camera">Камера</a></li>
-            <li><a class="nav__item" href="#orderings">Поиск заказов</a></li>
-          </ul>
+          <nav>
+            <ul class="nav popup__nav">
+              <li><a class="nav__item" href="#composition">Композиция</a></li>
+              <li><a class="nav__item" href="#camera">Камера</a></li>
+              <li><a class="nav__item" href="#orderings">Поиск заказов</a></li>
+            </ul>
+          </nav>
           <button type="button" class="popup__close-button"></button>
         </div>
       </div>

@@ -1,17 +1,17 @@
 @import "../../variables";
 
-.burgerMenu {
+.burger-menu {
   display: none;
   cursor: pointer;
   transition: opacity 0.4s linear;
 }
 
-.burgerMenu:hover {
+.burger-menu:hover {
   opacity: 0.6;
 }
 
 @media (max-width: $screen_xl) {
-  .burgerMenu {
+  .burger-menu {
     display: inline;
   }
 }
