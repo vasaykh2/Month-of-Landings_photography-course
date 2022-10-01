@@ -3,9 +3,6 @@
 .course__img {
   max-width: 642px;
   height: 555px;
-  overflow: visible;
-  display: flex;
-  flex-direction: column;
 }
 
 @media screen and (max-width: $screen_xxl) {

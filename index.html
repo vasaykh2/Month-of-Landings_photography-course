@@ -27,36 +27,28 @@
           class="burger-menu__button"
           title="Открыть меню навигации"
         >
-          <img
-            src="./Vendor/images/burger-menu.svg"
-            alt="Выпадающее меню"
-            class="burger-menu"
-          />
+          <div class="burger-menu"></div>
         </button>
       </header>
       <main class="content">
-        <section class="wrapper course">
-          <div class="container course__container">
-            <section class="course__main">
-              <section class="course__txt">
-                <h1 class="course__title">Курс по фотографии</h1>
-                <p class="course__subtitle">
-                  Фотография в природных условиях, уроки по композиции и по
-                  пользованию камерой.
-                </p>
-              </section>
-              <button type="button" class="button" title="Подробнее">
-                Подробнее
-              </button>
+        <section class="wrapper course container">
+          <section class="course__main">
+            <section class="course__txt">
+              <h1 class="course__title">Курс по фотографии</h1>
+              <p class="course__subtitle">
+                Фотография в природных условиях, уроки по композиции и по
+                пользованию камерой.
+              </p>
             </section>
-            <div class="course__img">
-              <img
-                src="./Vendor/images/oleksii-yasinskyi-2p37hls8jkA-unsplash1.png"
-                alt="Снег и туман в лесу"
-                class="img"
-              />
-            </div>
-          </div>
+            <button type="button" class="button" title="Подробнее">
+              Подробнее
+            </button>
+          </section>
+          <img
+            src="./Vendor/images/oleksii-yasinskyi-2p37hls8jkA-unsplash1.png"
+            alt="Снег и туман в лесу"
+            class="img course__img"
+          />
         </section>
         <section class="wrapper composition" id="composition">
           <div class="container composition__container">
@@ -66,7 +58,8 @@
                 <h3 class="composition__title">Изучите композицию</h3>
                 <p class="composition__subtitle">
                   Вы изучите гармоничное размещение всех элементов изображения
-                  на <span>снимке</span>.
+                  на
+                  <span class="composition__subtitle_type_bold">снимке</span>.
                 </p>
                 <p class="composition__subtitle">
                   Изучите композицию интуитивную и какие-то определённые законы.
@@ -76,13 +69,11 @@
                 Записаться!
               </button>
             </section>
-            <div class="composition__img">
-              <img
-                src="./Vendor/images/launde-morel-jYVspgngNf8-unsplash1.png"
-                alt="Дорога в лесу"
-                class="img"
-              />
-            </div>
+            <img
+              src="./Vendor/images/launde-morel-jYVspgngNf8-unsplash1.png"
+              alt="Дорога в лесу"
+              class="img composition__img"
+            />
           </div>
           <ul class="composition__rools">
             <li class="composition__rool">
@@ -105,22 +96,18 @@
           <div class="container camera__container">
             <section class="camera__main">
               <section class="camera__txt">
-                <h2 class="section-name">камера</h2>
-                <p class="camera__item">Настройка</p>
-                <p class="camera__item">Съемка</p>
-                <p class="camera__item">Обработка</p>
+                <p class="section-name">камера</p>
+                <p class="camera__item">Настройка Съемка Обработка</p>
               </section>
               <h2 class="section-name section-name_type_feedbacks">
                 отзывы про часть о камерах:
               </h2>
             </section>
-            <div class="camera__img">
-              <img
-                src="./Vendor/images/caleb-moreno-Uy4_uNnNHDU-unsplash1.png"
-                alt="Лесная ложбина"
-                class="img"
-              />
-            </div>
+            <img
+              src="./Vendor/images/caleb-moreno-Uy4_uNnNHDU-unsplash1.png"
+              alt="Лесная ложбина"
+              class="img camera__img"
+            />
           </div>
           <ul class="camera__feedbacks">
             <li class="camera__feedback">
@@ -141,29 +128,25 @@
             </li>
           </ul>
         </section>
-        <section class="wrapper orderings" id="orderings">
-          <div class="container orderings__container">
-            <section class="orderings__main">
-              <h2 class="section-name">поиск заказов</h2>
-              <p class="orderings__subtitle">Научим находить заказы!</p>
-              <div class="orderings__img">
-                <img
-                  src="./Vendor/images/nikolay-maslov-XnvLe0u9iM8-unsplash1.png"
-                  alt="Дерево на фоне неба"
-                  class="img"
-                />
-              </div>
-            </section>
-            <section class="orderings__description">
-              <p class="orderings__txt">
-                Мы научим вас искать заказы на всяких фриланс биржах, а когда вы
-                сделаете крутое портфолио, мы поможем найти постоянную работу.
-              </p>
-              <button type="button" class="button" title="Записаться!">
-                Записаться!
-              </button>
-            </section>
-          </div>
+        <section class="wrapper orderings container" id="orderings">
+          <section class="orderings__main">
+            <h2 class="section-name">поиск заказов</h2>
+            <p class="orderings__subtitle">Научим находить заказы!</p>
+            <img
+              src="./Vendor/images/nikolay-maslov-XnvLe0u9iM8-unsplash1.png"
+              alt="Дерево на фоне неба"
+              class="img orderings__img"
+            />
+          </section>
+          <section class="orderings__description">
+            <p class="orderings__txt">
+              Мы научим вас искать заказы на всяких фриланс биржах, а когда вы
+              сделаете крутое портфолио, мы поможем найти постоянную работу.
+            </p>
+            <button type="button" class="button" title="Записаться!">
+              Записаться!
+            </button>
+          </section>
         </section>
         <section class="wrapper register">
           <img src="./Vendor/images/Vector.svg" alt="Стрелка" class="vector" />
@@ -175,7 +158,7 @@
                 name="E-mail"
                 minlength="5"
                 maxlength="50"
-                placeholder="Ваша почта"
+                value="Ваша почта"
                 class="form__item"
                 id="e-mail"
                 required=""

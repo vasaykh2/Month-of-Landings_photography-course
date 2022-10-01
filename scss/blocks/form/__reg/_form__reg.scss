@@ -12,6 +12,7 @@
   color: $txt-dark;
   border: 0;
   box-sizing: border-box;
+  border-radius: 0 7px 7px 0;
   @include pointerBold;
 }
 

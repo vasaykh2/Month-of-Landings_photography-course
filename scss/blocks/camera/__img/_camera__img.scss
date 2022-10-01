@@ -1,38 +1,26 @@
 @import "../../../variables";
+@import "../../../mixins/img";
 
 .camera__img {
-  max-width: 642px;
-  overflow: visible;
-  display: flex;
-  flex-direction: column;
+  @include max-width;
 }
 
 @media (max-width: $screen_xl) {
   .camera__img {
-    max-width: 688px;
-    width: 688px;
     height: 656px;
-    position: absolute;
+
     top: 60px + 3 * 123px + 40px + 28px;
   }
 }
 
 @media (max-width: $screen_l) {
   .camera__img {
-    max-width: 500px;
     aspect-ratio: 688 / 656;
-  }
-}
-
-@media (max-width: $screen_m) {
-  .camera__img {
-    max-width: 400px;
   }
 }
 
 @media (max-width: $screen_s) {
   .camera__img {
-    max-width: 280px;
     height: 268px;
   }
 }

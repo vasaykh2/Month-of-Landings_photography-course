@@ -424,6 +424,13 @@ template {
 
 .burger-menu {
   display: none;
+  background-image: url(../../../../Month-of-Landings_photography-course/Vendor/images/burger-menu.svg);
+  width: 32px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  box-sizing: border-box;
   cursor: pointer;
   transition: opacity 0.4s linear;
 }
@@ -434,13 +441,15 @@ template {
 
 @media (max-width: 1100px) {
   .burger-menu {
-    display: inline;
+    display: block;
   }
 }
 .burger-menu__button {
   border: 0;
   background-color: rgba(255, 206, 0, 0);
   display: none;
+  padding: 0;
+  margin: 0;
 }
 
 @media (max-width: 1100px) {
@@ -485,10 +494,6 @@ template {
     position: relative;
   }
 }
-.course__container {
-  color: inherit;
-}
-
 .course__main {
   display: flex;
   flex-direction: column;
@@ -510,6 +515,7 @@ template {
 
 @media (max-width: 1100px) {
   .course__title {
+    max-width: 900px;
     margin-bottom: 714px;
   }
 }
@@ -541,6 +547,11 @@ template {
   color: #000;
 }
 
+@media (max-width: 1400px) {
+  .course__subtitle {
+    margin-bottom: 40px;
+  }
+}
 @media (max-width: 1100px) {
   .course__subtitle {
     margin-bottom: 60px;
@@ -587,9 +598,6 @@ template {
 .course__img {
   max-width: 642px;
   height: 555px;
-  overflow: visible;
-  display: flex;
-  flex-direction: column;
 }
 
 @media screen and (max-width: 1400px) {
@@ -714,16 +722,12 @@ template {
   }
 }
 .composition__subtitle {
-  margin: 0 0 20px;
+  margin: 0 20px 20px 0;
   max-width: 400px;
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
   color: #000;
-}
-
-.composition__subtitle span {
-  font-weight: 700;
 }
 
 .composition__subtitle:last-child {
@@ -745,40 +749,57 @@ template {
     margin-bottom: 30px;
   }
 }
+.composition__subtitle_type_bold {
+  font-weight: 700;
+}
+
 .composition__img {
-  max-width: 642px;
   height: 685px;
-  overflow: visible;
-  display: flex;
-  flex-direction: column;
+  max-width: 642px;
+}
+@media (max-width: 1100px) {
+  .composition__img {
+    max-width: 688px;
+    width: 688px;
+    position: absolute;
+  }
+}
+@media (max-width: 750px) {
+  .composition__img {
+    max-width: 500px;
+  }
+}
+@media (max-width: 550px) {
+  .composition__img {
+    max-width: 400px;
+  }
+}
+@media (max-width: 440px) {
+  .composition__img {
+    max-width: 280px;
+  }
 }
 
 @media (max-width: 1100px) {
   .composition__img {
-    max-width: 688px;
-    height: 685px;
     aspect-ratio: 688/685;
-    position: absolute;
     top: 256px;
   }
 }
 @media (max-width: 750px) {
   .composition__img {
-    width: 500px;
     height: 496px;
     aspect-ratio: 280/278;
   }
 }
 @media (max-width: 550px) {
   .composition__img {
-    width: 400px;
     height: 397px;
     aspect-ratio: 400/397;
   }
 }
 @media (max-width: 440px) {
   .composition__img {
-    max-width: 280px;
     height: 278px;
     top: 156px;
   }
@@ -802,10 +823,8 @@ template {
   .composition__rools {
     margin-top: 80px;
     width: 100%;
-    display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: flex-start;
     gap: 0;
   }
 }
@@ -900,7 +919,7 @@ template {
   line-height: 122px;
 }
 
-.camera__item:first-of-type {
+.camera__item:nth-child(2) {
   margin-top: 50px;
 }
 
@@ -938,24 +957,17 @@ template {
 }
 .camera__img {
   max-width: 642px;
-  overflow: visible;
-  display: flex;
-  flex-direction: column;
 }
-
 @media (max-width: 1100px) {
   .camera__img {
     max-width: 688px;
     width: 688px;
-    height: 656px;
     position: absolute;
-    top: 497px;
   }
 }
 @media (max-width: 750px) {
   .camera__img {
     max-width: 500px;
-    aspect-ratio: 688/656;
   }
 }
 @media (max-width: 550px) {
@@ -966,6 +978,22 @@ template {
 @media (max-width: 440px) {
   .camera__img {
     max-width: 280px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .camera__img {
+    height: 656px;
+    top: 497px;
+  }
+}
+@media (max-width: 750px) {
+  .camera__img {
+    aspect-ratio: 688/656;
+  }
+}
+@media (max-width: 440px) {
+  .camera__img {
     height: 268px;
   }
 }
@@ -1110,9 +1138,6 @@ template {
 }
 .orderings__img {
   max-width: 648px;
-  overflow: visible;
-  display: flex;
-  flex-direction: column;
 }
 
 @media screen and (max-width: 1400px) {
@@ -1280,6 +1305,7 @@ template {
   border: 0;
   border-right: 2px solid;
   box-sizing: border-box;
+  border-radius: 7px 0 0 7px;
   cursor: url("../../../../Vendor/images/CursorPoint.svg"), pointer;
 }
 
@@ -1312,6 +1338,7 @@ input::-webkit-input-placeholder {
   color: #000;
   border: 0;
   box-sizing: border-box;
+  border-radius: 0 7px 7px 0;
   cursor: pointer;
   transition: font-weight 0.5s linear;
 }
@@ -1390,6 +1417,7 @@ input::-webkit-input-placeholder {
 @media (max-width: 550px) {
   .popup__container {
     align-items: flex-start;
+    justify-content: space-between;
     padding: 20px 20px 26px;
   }
 }
@@ -1403,7 +1431,8 @@ input::-webkit-input-placeholder {
   border: none;
   padding: 0;
   position: absolute;
-  right: 23px;
+  top: 30px;
+  right: 40px;
   cursor: pointer;
   transition: opacity 0.4s linear;
 }
@@ -1414,7 +1443,8 @@ input::-webkit-input-placeholder {
 
 @media (max-width: 550px) {
   .popup__close-button {
-    top: 22px;
+    top: 20px;
+    right: 20px;
   }
 }
 .popup__nav {
@@ -1432,7 +1462,7 @@ input::-webkit-input-placeholder {
 @media (max-width: 550px) {
   .popup__nav {
     margin: 56px auto 0;
-    padding-right: 60px;
+    padding-right: calc(50vw - 48.5px - 27.825px);
     flex-direction: column;
     justify-content: flex-end;
     gap: 12px;

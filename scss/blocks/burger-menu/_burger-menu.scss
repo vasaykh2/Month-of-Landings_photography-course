@@ -2,6 +2,13 @@
 
 .burger-menu {
   display: none;
+  background-image: url(../../../../Month-of-Landings_photography-course/Vendor/images/burger-menu.svg);
+  width: 32px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  box-sizing: border-box;
   cursor: pointer;
   transition: opacity 0.4s linear;
 }
@@ -12,6 +19,6 @@
 
 @media (max-width: $screen_xl) {
   .burger-menu {
-    display: inline;
+    display: block;
   }
 }

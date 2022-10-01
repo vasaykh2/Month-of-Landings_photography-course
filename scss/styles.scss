@@ -24,7 +24,6 @@
 
 @use "./blocks/container/container";
 
-@use "./blocks/course/__container/course__container";
 @use "./blocks/course/__main/course__main";
 @use "./blocks/course/__txt/course__txt";
 @use "./blocks/course/__title/course__title";
@@ -47,7 +46,8 @@
 
 @use "./blocks/composition/__title/composition__title";
 @use "./blocks/composition/__subtitle/composition__subtitle";
-@use "./blocks/composition/__img/composition__img";
+@use "./blocks/composition/__subtitle/_type/composition__subtitle_type_bold";
+@use './blocks/composition/__img/composition__img';
 @use "./blocks/composition/__rools/composition__rools";
 @use "./blocks/composition/__rool/composition__rool";
 

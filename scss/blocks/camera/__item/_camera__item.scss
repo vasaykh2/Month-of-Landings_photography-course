@@ -8,7 +8,7 @@
   line-height: $size-large;
 }
 
-.camera__item:first-of-type {
+.camera__item:nth-child(2) {
   margin-top: 50px;
 }
 

@@ -9,6 +9,12 @@
   color: $txt-dark;
 }
 
+@media (max-width: $screen_xxl) {
+  .course__subtitle {
+    margin-bottom: 40px;
+  }
+}
+
 @media (max-width: $screen_xl) {
   .course__subtitle {
     margin-bottom: 60px;

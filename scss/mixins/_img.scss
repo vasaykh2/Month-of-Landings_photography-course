@@ -1,0 +1,18 @@
+@import "../variables";
+@mixin max-width {
+  max-width: 642px;
+  @media (max-width: $screen_xl) {
+    max-width: 688px;
+    width: 688px;
+    position: absolute;
+  }
+  @media (max-width: $screen_l) {
+    max-width: 500px;
+  }
+  @media (max-width: $screen_m) {
+    max-width: 400px;
+  }
+  @media (max-width: $screen_s) {
+    max-width: 280px;
+  }
+}

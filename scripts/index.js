@@ -11,25 +11,28 @@ const registButton = form.querySelector('.form__reg');
 //открытие popup
 function openPopup(popup) {
   popup.classList.add('popup_opened');
-  header.classList.add('header_type_down');
 }
 
 //закрытие popup
 function closePopup(popup) {
   popup.classList.remove('popup_opened');
-  header.classList.remove('header_type_down');
 }
 
 //обновление поля формы
 function updateForm() {
-  inputEMail.placeholder = '';
+  inputEMail.value = '';
 }
 
 //функция submit для формы регистрации E-mail
 function handleFormSubmit(evt) {
   evt.preventDefault();
-  inputEMail.placeholder = inputEMail.textContent;
-  registButton.textContent = 'Спасибо!';
+  if (inputEMail.value.includes('@')) {
+    inputEMail.placeholder = inputEMail.textContent;
+    registButton.textContent = 'Спасибо!';
+  } else {
+    inputEMail.value = 'Ваша почта';
+    registButton.textContent = 'Записаться!';
+  }
 }
 
 //функция реакции на нажатие пункта меню навигации popup
