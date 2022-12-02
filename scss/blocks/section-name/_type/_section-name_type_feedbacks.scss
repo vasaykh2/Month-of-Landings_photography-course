@@ -1,0 +1,13 @@
+@import "../../../variables";
+
+.section-name_type_feedbacks {
+  color: inherit;
+}
+
+@media (max-width: $screen_xs) {
+  .section-name_type_feedbacks {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+}

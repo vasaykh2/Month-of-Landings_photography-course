@@ -1,0 +1,50 @@
+@import "../../../variables";
+
+.camera__item {
+  margin: 0;
+  max-width: 400px;
+  font-weight: $font-weight-norm;
+  font-size: $size-large;
+  line-height: $size-large;
+}
+
+.camera__item:nth-child(2) {
+  margin-top: 50px;
+}
+
+@media (max-width: $screen_xxl) {
+  .camera__item {
+    font-size: $size-large - 50px;
+  }
+}
+
+@media (max-width: ($screen_xxl - 200px)) {
+  .camera__item {
+    font-size: $size-large - 60px;
+  }
+}
+
+@media (max-width: $screen_xl) {
+  .camera__item {
+    font-size: $size-large;
+  }
+  .camera__item:first-of-type {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: $screen_l) {
+  .camera__item {
+    font-size: $size-large - 50px;
+  }
+}
+
+@media (max-width: $screen_ss) {
+  .camera__item {
+    font-size: $font-size-mobil + 1px;
+    line-height: $line-height-mobil;
+  }
+  .camera__item:first-of-type {
+    margin-top: 30px;
+  }
+}

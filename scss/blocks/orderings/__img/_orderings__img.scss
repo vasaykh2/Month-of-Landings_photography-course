@@ -1,0 +1,39 @@
+@import "../../../variables";
+
+.orderings__img {
+  max-width: 648px;
+}
+
+@media screen and (max-width: $screen_xxl) {
+  .orderings__img {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: $screen_xl) {
+  .orderings__img {
+    max-width: 688px;
+    height: 360px;
+  }
+}
+
+@media (max-width: $screen_l) {
+  .orderings__img {
+    max-width: 500px;
+    height: 263px;
+  }
+}
+
+@media (max-width: $screen_m) {
+  .orderings__img {
+    max-width: 400px;
+    height: 210px;
+  }
+}
+
+@media (max-width: $screen_s) {
+  .orderings__img {
+    max-width: 280px;
+    height: 147px;
+  }
+}

@@ -1,0 +1,14 @@
+@import "../../variables";
+
+.logo {
+  max-width: 40px;
+  aspect-ratio: 1/1;
+  transform: rotate(-180deg);
+  cursor: pointer;
+}
+
+@media (max-width: $screen_xs) {
+  .logo {
+    max-width: 30px;
+  }
+}

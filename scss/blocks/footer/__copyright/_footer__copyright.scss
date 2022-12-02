@@ -1,0 +1,15 @@
+@import "../../../variables";
+
+.footer__copyright {
+  margin: 0;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-small + 1px;
+  line-height: $line-height-norm;
+  color: $white;
+}
+
+@media (max-width: $screen_xs) {
+  .footer__copyright {
+    font-size: $font-size-small - 2px;
+  }
+}

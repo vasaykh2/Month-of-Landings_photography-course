@@ -10,49 +10,56 @@
   <body class="body">
     <div class="page">
       <header class="header">
-        <img src="./Vendor/images/logo.png" alt="Логотип" class="logo" />
-        <nav class="nav">
-          <a class="nav__item" href="#composition">Композиция</a>
-          <a class="nav__item" href="#camera">Камера</a>
-          <a class="nav__item" href="#orderings">Поиск заказов</a>
-          <img
-            src="./Vendor/images/sandwich.png"
-            alt="Выпадающее меню"
-            class="dropdown"
-          />
+        <img
+          src="./Vendor/images/logo.svg"
+          alt="Логотип"
+          class="logo rotation"
+        />
+        <nav>
+          <ul class="nav header__nav">
+            <li><a class="nav__item" href="#composition">Композиция</a></li>
+            <li><a class="nav__item" href="#camera">Камера</a></li>
+            <li><a class="nav__item" href="#orderings">Поиск заказов</a></li>
+          </ul>
         </nav>
+        <button
+          type="button"
+          class="burger-menu__button"
+          title="Открыть меню навигации"
+        >
+          <div class="burger-menu"></div>
+        </button>
       </header>
       <main class="content">
-        <article class="course">
-          <div class="container course__container">
-            <section class="course__main">
-              <section class="course__txt">
-                <h1 class="course__title">Курс по фотографии</h1>
-                <p class="course__subtitle">
-                  Фотография в природных условиях, уроки по композиции и по
-                  пользованию камерой.
-                </p>
-              </section>
-              <button type="button" class="button" title="Подробнее">
-                Подробнее
-              </button>
+        <section class="wrapper course container">
+          <section class="course__main">
+            <section class="course__txt">
+              <h1 class="course__title">Курс по фотографии</h1>
+              <p class="course__subtitle">
+                Фотография в природных условиях, уроки по композиции и по
+                пользованию камерой.
+              </p>
             </section>
-            <img
-              src="./Vendor/images/oleksii-yasinskyi-2p37hls8jkA-unsplash 1.png"
-              alt="Снег и туман в лесу"
-              class="img course__img"
-            />
-          </div>
-        </article>
-        <article class="composition" id="composition">
+            <button type="button" class="button" title="Подробнее">
+              Подробнее
+            </button>
+          </section>
+          <img
+            src="./Vendor/images/oleksii-yasinskyi-2p37hls8jkA-unsplash1.png"
+            alt="Снег и туман в лесу"
+            class="img course__img"
+          />
+        </section>
+        <section class="wrapper composition" id="composition">
           <div class="container composition__container">
             <section class="composition__main">
-              <section class="composition-txt">
+              <section class="composition__txt">
                 <h2 class="section-name">Композиция</h2>
                 <h3 class="composition__title">Изучите композицию</h3>
                 <p class="composition__subtitle">
                   Вы изучите гармоничное размещение всех элементов изображения
-                  на снимке.
+                  на
+                  <span class="composition__subtitle_type_bold">снимке</span>.
                 </p>
                 <p class="composition__subtitle">
                   Изучите композицию интуитивную и какие-то определённые законы.
@@ -63,7 +70,7 @@
               </button>
             </section>
             <img
-              src="./Vendor/images/launde-morel-jYVspgngNf8-unsplash 1.png"
+              src="./Vendor/images/launde-morel-jYVspgngNf8-unsplash1.png"
               alt="Дорога в лесу"
               class="img composition__img"
             />
@@ -74,7 +81,7 @@
               пересечениях.
             </li>
             <li class="composition__rool">
-              Простота: убирай всё лишнее и кадрируй!
+              Простота: убирай всё лишнее и&nbsp;кадрируй!
             </li>
             <li class="composition__rool">
               Равновесие: уравновесь пятна объекта и фона.
@@ -84,20 +91,20 @@
               предметами.
             </li>
           </ul>
-        </article>
-        <article class="camera" id="camera">
+        </section>
+        <section class="wrapper camera" id="camera">
           <div class="container camera__container">
             <section class="camera__main">
-              <section class="camera-txt">
-                <h2 class="section-name">камера</h2>
-                <p class="camera__item">Настройка</p>
-                <p class="camera__item">Съемка</p>
-                <p class="camera__item">Обработка</p>
+              <section class="camera__txt">
+                <p class="section-name">камера</p>
+                <p class="camera__item">Настройка Съемка Обработка</p>
               </section>
-              <h2 class="section-name">отзывы про часть о камерах:</h2>
+              <h2 class="section-name section-name_type_feedbacks">
+                отзывы про часть о камерах:
+              </h2>
             </section>
             <img
-              src="./Vendor/images/caleb-moreno-Uy4_uNnNHDU-unsplash 1.png"
+              src="./Vendor/images/caleb-moreno-Uy4_uNnNHDU-unsplash1.png"
               alt="Лесная ложбина"
               class="img camera__img"
             />
@@ -113,63 +120,74 @@
             </li>
             <li class="camera__feedback">
               <p class="camera__feedback-txt">
-                супер крутой курс! на части про фотики я стал разбираться в
-                предназначении кнопок
+                супер крутой курс! на&nbsp;части про фотики я&nbsp;стал
+                разбираться в предназначении кнопок
               </p>
               <p class="camera__feedback-signature">Джон, спортсмен.</p>
               <p class="camera__feedback-address">@john_sport</p>
             </li>
           </ul>
-        </article>
-        <article class="orderings" id="orderings">
-          <div class="container orderings__container">
-            <section class="orderings__main">
-              <h2 class="section-name">поиск заказов</h2>
-              <p class="orderings__subtitle">Научим находить заказы!</p>
-              <img
-                src="./Vendor/images/nikolay-maslov-XnvLe0u9iM8-unsplash 1.png"
-                alt="Дерево на фоне неба"
-                class="img orderings__img"
-              />
-            </section>
-            <section class="orderings__description">
-              <p class="orderings__txt">
-                Мы научим вас искать заказы на всяких фриланс биржах, а когда вы
-                сделаете крутое портфолио, мы поможем найти постоянную работу.
-              </p>
-              <button type="button" class="button" title="Записаться!">
-                Записаться!
-              </button>
-            </section>
-          </div>
-        </article>
-        <section class="register">
-          <img src="./Vendor/images/vector.png" alt="Стрелка" class="vector" />
+        </section>
+        <section class="wrapper orderings container" id="orderings">
+          <section class="orderings__main">
+            <h2 class="section-name">поиск заказов</h2>
+            <p class="orderings__subtitle">Научим находить заказы!</p>
+            <img
+              src="./Vendor/images/nikolay-maslov-XnvLe0u9iM8-unsplash1.png"
+              alt="Дерево на фоне неба"
+              class="img orderings__img"
+            />
+          </section>
+          <section class="orderings__description">
+            <p class="orderings__txt">
+              Мы научим вас искать заказы на всяких фриланс биржах, а когда вы
+              сделаете крутое портфолио, мы поможем найти постоянную работу.
+            </p>
+            <button type="button" class="button" title="Записаться!">
+              Записаться!
+            </button>
+          </section>
+        </section>
+        <section class="wrapper register">
+          <img src="./Vendor/images/Vector.svg" alt="Стрелка" class="vector" />
           <div class="register__container">
-            <p class="register__call">Записаться!</p>
-            <p class="register__call">Сейчас!</p>
+            <p class="register__call">Записаться! Сейчас!</p>
             <form class="form" name="formReg" novalidate="">
               <input
                 type="text"
                 name="E-mail"
-                minlength="3"
+                minlength="5"
                 maxlength="50"
-                placeholder="Ваша почта"
+                value="Ваша почта"
                 class="form__item"
                 id="e-mail"
                 required=""
               />
-              <button type="submit" class="form__reg" value="Записаться!">
-                Записаться!
-              </button>
+              <button type="submit" class="form__reg">Записаться!</button>
             </form>
           </div>
         </section>
       </main>
-      <footer class="footer">
+      <footer class="wrapper footer">
         <p class="footer__copyright">2022 Photo-lessons.</p>
       </footer>
-      <div class="popup"></div>
+      <div class="popup">
+        <div class="popup__container">
+          <img
+            src="./Vendor/images/logo.svg"
+            alt="Логотип"
+            class="logo rotation popup__logo"
+          />
+          <nav>
+            <ul class="nav popup__nav">
+              <li><a class="nav__item" href="#composition">Композиция</a></li>
+              <li><a class="nav__item" href="#camera">Камера</a></li>
+              <li><a class="nav__item" href="#orderings">Поиск заказов</a></li>
+            </ul>
+          </nav>
+          <button type="button" class="popup__close-button"></button>
+        </div>
+      </div>
     </div>
     <script src="./scripts/index.js"></script>
   </body>

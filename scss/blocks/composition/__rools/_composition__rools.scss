@@ -1,0 +1,27 @@
+@import "../../../variables";
+
+.composition__rools {
+  list-style-type: none;
+  margin: 100px 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 56px;
+}
+
+@media (max-width: $screen_xl) {
+  .composition__rools {
+    margin-top: 80px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+    gap: 0;
+  }
+}
+
+@media (max-width: $screen_xs) {
+  .composition__rools {
+    width: 98%;
+  }
+}

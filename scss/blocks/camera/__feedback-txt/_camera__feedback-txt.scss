@@ -1,0 +1,16 @@
+@import "../../../variables";
+
+.camera__feedback-txt {
+  margin: 0;
+  max-width: 526px;
+  font-weight: $font-weight-norm;
+  font-size: $size-small;
+  line-height: $size-small;
+}
+
+@media (max-width: $screen_s) {
+  .camera__feedback-txt {
+    font-size: $font-size-medium + 4px;
+    line-height: $line-height-medium - 2px;
+  }
+}

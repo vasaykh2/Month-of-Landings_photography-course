@@ -1,0 +1,10 @@
+@import "../../../variables";
+
+.popup__logo {
+  display: none;
+}
+@media (max-width: $screen_m) {
+  .popup__logo {
+    display: inline;
+  }
+}

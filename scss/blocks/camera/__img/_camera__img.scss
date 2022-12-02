@@ -1,0 +1,32 @@
+@import "../../../variables";
+@import "../../../mixins/img";
+
+.camera__img {
+  @include max-width;
+}
+
+@media (max-width: $screen_xl) {
+  .camera__img {
+    height: 656px;
+
+    top: 60px + 3 * 123px + 40px + 28px;
+  }
+}
+
+@media (max-width: $screen_l) {
+  .camera__img {
+    aspect-ratio: 688 / 656;
+  }
+}
+
+@media (max-width: $screen_s) {
+  .camera__img {
+    height: 268px;
+  }
+}
+
+@media (max-width: 400px) {
+  .camera__img {
+    top: 60px + 3 * 56px + 30px + 20px + 20px + 20px;
+  }
+}

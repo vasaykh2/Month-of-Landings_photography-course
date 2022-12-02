@@ -1,0 +1,31 @@
+@import "../../../variables";
+
+.composition__subtitle {
+  margin: 0 20px 20px 0;
+  max-width: 400px;
+  font-weight: $font-weight-norm;
+  font-size: ($font-size-norm + $font-size-medium) / 2;
+  line-height: $line-height-medium;
+  color: $txt-dark;
+}
+
+.composition__subtitle:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: $screen_xl) {
+  .composition__subtitle:last-child {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: $screen_xs) {
+  .composition__subtitle {
+    margin-bottom: 36px;
+    font-size: $font-size-small;
+  line-height: $line-height-small;
+  }
+  .composition__subtitle:last-child {
+    margin-bottom: 30px;
+  }
+}

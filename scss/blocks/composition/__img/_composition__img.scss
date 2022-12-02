@@ -1,0 +1,41 @@
+@import "../../../variables";
+@import "../../../mixins/img";
+
+.composition__img {
+  height: 685px;
+  @include max-width;
+}
+
+@media (max-width: $screen_xl) {
+  .composition__img {
+    aspect-ratio: 688 / 685;
+    top: 60px + 128px + 40px + 28px;
+  }
+}
+
+@media (max-width: $screen_l) {
+  .composition__img {
+    height: 496px;
+    aspect-ratio: 280 / 278;
+  }
+}
+
+@media (max-width: $screen_m) {
+  .composition__img {
+   height: 397px;
+    aspect-ratio: 400 / 397;
+  }
+}
+
+@media (max-width: $screen_s) {
+  .composition__img {
+   height: 278px;
+    top: 60px + 76px + 20px;
+  }
+}
+
+@media (max-width: $screen_xs) {
+  .composition__img {
+    top: 150px + 76px;
+  }
+}

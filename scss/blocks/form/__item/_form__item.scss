@@ -1,0 +1,38 @@
+@import "../../../variables";
+
+.form__item {
+  margin: 0;
+  padding: 13px 0 13px 20px;
+  width: 348px;
+  height: 48px;
+  font-weight: $font-weight-norm;
+  font-size: $font-size-small;
+  line-height: $line-height-norm;
+  background-color: $white;
+  color: $txt-dark;
+  border: 0;
+  border-right: 2px solid;
+  box-sizing: border-box;
+  border-radius: 7px 0 0 7px;
+  cursor: url("../../../../Vendor/images/CursorPoint.svg"), pointer;
+}
+
+input::-webkit-input-placeholder {
+  color: $txt-dark;
+  margin: 0;
+}
+
+@media (max-width: $screen_l) {
+  .form__item {
+    width: 180px;
+    height: 47px;
+  }
+}
+
+@media (max-width: $screen_xs) {
+  .form__item {
+    width: 173px;
+    font-size: $font-size-small - 2.7px;
+    padding: 0 0 0 20px;
+  }
+}

@@ -1,0 +1,15 @@
+@import "../../../variables";
+
+.orderings__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-start;
+  gap: 148px;
+}
+
+@media (max-width: $screen_xl) {
+  .orderings__description {
+    gap: 0;
+  }
+}

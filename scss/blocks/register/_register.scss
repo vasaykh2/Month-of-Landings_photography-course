@@ -1,0 +1,23 @@
+@import "../../variables";
+
+.register {
+  background-color: $red;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 50px;
+  padding-bottom: 36px;
+}
+
+@media (max-width: $screen_xl) {
+  .register {
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: $screen_xs) {
+  .register {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../variables";
+
+.wrapper {
+  padding: 50px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+@media (max-width: $screen_xl) {
+  .wrapper {
+    padding: 40px;
+  }
+}
+
+@media (max-width: $screen_l) {
+  .wrapper {
+    padding: 15px 20px 20px;
+  }
+}

@@ -1,0 +1,19 @@
+@import "../../../variables";
+
+.popup__container {
+  width: 100%;
+  position: relative;
+  background-color: $red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 22px 30px 40px;
+}
+
+@media (max-width: $screen_m) {
+  .popup__container {
+    align-items: flex-start;
+    justify-content:space-between;
+    padding: 20px 20px 26px;
+  }
+}

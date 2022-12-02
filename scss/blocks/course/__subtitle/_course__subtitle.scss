@@ -1,0 +1,30 @@
+@import "../../../variables";
+
+.course__subtitle {
+  margin: 0;
+  max-width: 469px;
+  font-weight: $font-weight-norm;
+  font-size: $font-size-medium;
+  line-height: $line-height-medium;
+  color: $txt-dark;
+}
+
+@media (max-width: $screen_xxl) {
+  .course__subtitle {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: $screen_xl) {
+  .course__subtitle {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: $screen_xs) {
+  .course__subtitle {
+    font-size: $font-size-small;
+    line-height: $line-height-small;
+    margin-bottom: 30px;
+  }
+}

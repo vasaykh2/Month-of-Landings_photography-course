@@ -1,0 +1,45 @@
+@import "../../../variables";
+
+.composition__title {
+  max-width: 404px;
+  margin: 50px 0 100px;
+  font-weight: $font-weight-norm;
+  font-size: $size-medium;
+  line-height: $size-medium;
+  color: $txt-dark;
+}
+
+@media (max-width: $screen_xxl) {
+  .composition__title {
+    font-size: $size-medium - 20px;
+  }
+}
+
+@media (max-width: $screen_xl) {
+  .composition__title {
+    font-size: $size-medium;
+    margin-bottom: 685px + 60px + 60px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: $screen_l) {
+  .composition__title {
+    margin-bottom: 500px + 60px + 60px;
+  }
+}
+
+@media (max-width: $screen_m) {
+  .composition__title {
+    margin-bottom: 400px + 60px + 60px;
+  }
+}
+
+@media (max-width: $screen_s) {
+  .composition__title {
+    font-size: $font-size-medium + 10px;
+    line-height: $line-height-medium + 10px;
+    margin-bottom: 278px + 60px + 60px;
+    margin-top: 30px;
+  }
+}

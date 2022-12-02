@@ -1,0 +1,24 @@
+@import "../../../variables";
+
+.orderings__txt {
+  margin: 0;
+  max-width: 380px;
+  font-weight: $font-weight-norm;
+  font-size: ($font-size-norm + $font-size-medium) / 2;
+  line-height: $line-height-medium;
+  color: $txt-dark;
+}
+
+@media (max-width: $screen_xl) {
+  .orderings__txt {
+    margin: 60px 0;
+  }
+}
+
+@media (max-width: $screen_xs) {
+  .orderings__txt {
+    margin-bottom: 30px;
+    font-size: $font-size-small;
+    line-height: $line-height-small;
+  }
+}

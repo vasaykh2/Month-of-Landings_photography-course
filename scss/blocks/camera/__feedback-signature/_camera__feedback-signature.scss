@@ -1,0 +1,17 @@
+@import "../../../variables";
+
+.camera__feedback-signature {
+  margin: 60px 0 10px;
+  max-width: 526px;
+  font-weight: $font-weight-norm;
+  font-size: ($font-size-norm + $font-size-medium) / 2;
+  line-height: $line-height-medium;
+}
+
+@media (max-width: $screen_xs) {
+  .camera__feedback-signature {
+    margin: 30px 0 6px;
+    font-size: $font-size-small;
+    line-height: $line-height-small + 2px;
+  }
+}

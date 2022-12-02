@@ -1,0 +1,45 @@
+@import "../../../variables";
+
+.course__img {
+  max-width: 642px;
+  height: 555px;
+}
+
+@media screen and (max-width: $screen_xxl) {
+  .course__img {
+    max-width: 400px;
+    height: 388px;
+  }
+}
+
+@media screen and (max-width: $screen_xl) {
+  .course__img {
+    max-width: 688px;
+    width: 688px;
+    height: 594px;
+    position: absolute;
+    top: 60px + 220px;
+  }
+}
+
+@media (max-width: $screen_l) {
+  .course__img {
+    width: 500px;
+    height: 432px;
+  }
+}
+
+@media (max-width: $screen_m) {
+  .course__img {
+    width: 400px;
+    height: 346px;
+  }
+}
+
+@media (max-width: $screen_s) {
+  .course__img {
+    max-width: 280px;
+    height: 242px;
+    top: 60px + 112px;
+  }
+}

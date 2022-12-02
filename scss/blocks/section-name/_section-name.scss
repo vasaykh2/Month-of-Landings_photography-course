@@ -1,0 +1,20 @@
+@import "../../variables";
+
+.section-name {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: $font-weight-norm;
+  font-size: ($font-size-norm + $font-size-medium) / 2;
+  line-height: $line-height-medium;
+  color: inherit;
+}
+
+@media (max-width: $screen_xs) {
+  .section-name {
+    font-size: $font-size-small;
+    line-height: $line-height-small + 2px;
+    border-top: 1px solid;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+}

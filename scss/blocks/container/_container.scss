@@ -1,0 +1,15 @@
+@import "../../variables";
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+@media (max-width: $screen_xl) {
+  .container {
+    flex-direction: column;
+    position: relative;
+  }
+}
